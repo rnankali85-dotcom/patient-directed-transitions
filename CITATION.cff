@@ -13,7 +13,6 @@ keywords:
   - patient trajectories
   - directed transitions
   - explainable AI
-# After creating the GitHub repository, replace the placeholder below with
-# the permanent repository URL before publishing the final version.
-repository-code: "https://github.com/REPLACE_WITH_USERNAME/REPLACE_WITH_REPOSITORY"
+
+repository-code:"https://github.com/rnankali85-dotcom/patient-directed-transitions"
 license: "MIT"
