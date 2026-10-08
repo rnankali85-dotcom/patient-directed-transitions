@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Predicting Episode-Level Healthcare Utilization From Historical Service Pathways"
+message: "If you use this code, please cite the associated publication."
+type: software
+authors:
+  - family-names: "Nankali"
+    given-names: "Rezvan"
+    email: "rnankali85@gmail.com"
+keywords:
+  - healthcare utilization
+  - machine learning
+  - electronic health records
+  - patient trajectories
+  - directed transitions
+  - explainable AI
+# After creating the GitHub repository, replace the placeholder below with
+# the permanent repository URL before publishing the final version.
+repository-code: "https://github.com/REPLACE_WITH_USERNAME/REPLACE_WITH_REPOSITORY"
+license: "MIT"

@@ -1,0 +1,897 @@
+NationalCode,EpisodeID,EpisodeStartDate,EpisodeEndDate,TotalEpisodeCost,UniqueServiceCount,TotalEventsInEpisode,EpisodeDurationDays,ServiceSequence,PatientAge,PatientGender,InsuranceType,PrimarySpecialty,DoctorID
+SYNTH_000001,SYN_000001_E001,2024-01-22,2024-01-27,3510.4,2,2,5,Visit -> ClinicalService,50,Male,Private,Dermatology,DOC_003
+SYNTH_000001,SYN_000001_E002,2024-02-21,2024-02-23,3687.33,3,3,2,Visit -> Laboratory -> Radiology,50,Male,Private,Orthopedics,DOC_004
+SYNTH_000001,SYN_000001_E003,2024-02-28,2024-03-04,7221.77,4,6,5,Visit -> Laboratory -> Radiology -> Laboratory -> ClinicalService -> ClinicalService,50,Male,Private,Gynecology,DOC_009
+SYNTH_000002,SYN_000002_E001,2024-08-14,2024-08-15,10712.47,3,7,1,Visit -> Drug -> Laboratory -> Laboratory -> Drug -> Drug -> Laboratory,51,Male,Organization,Dermatology,DOC_004
+SYNTH_000003,SYN_000003_E001,2024-07-25,2024-07-26,6453.7,3,3,1,Visit -> Radiology -> Drug,54,Male,Private,Neurology,DOC_009
+SYNTH_000003,SYN_000003_E002,2024-09-08,2024-09-09,10293.52,2,3,1,Visit -> Laboratory -> Laboratory,54,Male,Private,Neurology,DOC_008
+SYNTH_000003,SYN_000003_E003,2024-10-08,2024-10-10,5121.61,3,5,2,Visit -> Radiology -> Laboratory -> Laboratory -> Laboratory,54,Male,Private,ENT,DOC_009
+SYNTH_000003,SYN_000003_E004,2024-10-22,2024-10-27,12000.51,4,7,5,Visit -> Drug -> Drug -> Drug -> Drug -> Radiology -> Laboratory,54,Male,Private,Cardiology,DOC_005
+SYNTH_000003,SYN_000003_E005,2024-12-21,2024-12-26,5437.07,2,3,5,Visit -> Drug -> Drug,54,Male,Private,ENT,DOC_004
+SYNTH_000004,SYN_000004_E001,2024-05-01,2024-05-01,1936.03,3,4,0,Visit -> Drug -> Laboratory -> Laboratory,45,Male,Organization,Neurology,DOC_002
+SYNTH_000005,SYN_000005_E001,2024-07-06,2024-07-08,3140.97,5,6,2,Visit -> Radiology -> Laboratory -> Drug -> Drug -> ClinicalService,52,Female,Social Security,Gynecology,DOC_003
+SYNTH_000005,SYN_000005_E002,2024-08-05,2024-08-08,17741.47,3,4,3,Visit -> Radiology -> Radiology -> Laboratory,52,Female,Social Security,Orthopedics,DOC_002
+SYNTH_000005,SYN_000005_E003,2024-08-12,2024-08-13,11505.37,3,4,1,Visit -> Drug -> Laboratory -> Drug,52,Female,Social Security,ENT,DOC_008
+SYNTH_000005,SYN_000005_E004,2024-08-26,2024-08-26,54040.01,5,7,0,Visit -> Drug -> Laboratory -> Drug -> ClinicalService -> Laboratory -> Radiology,52,Female,Social Security,Cardiology,DOC_010
+SYNTH_000006,SYN_000006_E001,2024-04-26,2024-04-29,2984.05,5,7,3,Visit -> Laboratory -> Laboratory -> Drug -> Radiology -> ClinicalService -> Drug,52,Male,Health Insurance,ENT,DOC_003
+SYNTH_000006,SYN_000006_E002,2024-05-17,2024-05-18,3698.0,4,5,1,Visit -> Radiology -> Radiology -> Drug -> ClinicalService,52,Male,Health Insurance,Cardiology,DOC_003
+SYNTH_000006,SYN_000006_E003,2024-06-07,2024-06-10,4862.9,3,4,3,Visit -> Drug -> ClinicalService -> Drug,52,Male,Health Insurance,Cardiology,DOC_009
+SYNTH_000007,SYN_000007_E001,2024-04-16,2024-04-26,4845.19,2,2,10,Visit -> Radiology,53,Male,Social Security,Gynecology,DOC_010
+SYNTH_000007,SYN_000007_E002,2024-05-07,2024-05-17,4180.41,4,6,10,Visit -> Radiology -> Laboratory -> Drug -> Radiology -> Drug,53,Male,Social Security,Gynecology,DOC_001
+SYNTH_000008,SYN_000008_E001,2024-03-30,2024-03-30,24124.34,5,7,0,Visit -> Drug -> Drug -> Radiology -> ClinicalService -> Laboratory -> Drug,76,Male,Social Security,Orthopedics,DOC_008
+SYNTH_000009,SYN_000009_E001,2024-08-15,2024-08-16,4640.67,3,5,1,Visit -> Drug -> Radiology -> Radiology -> Radiology,56,Male,Health Insurance,Dermatology,DOC_008
+SYNTH_000010,SYN_000010_E001,2024-05-07,2024-05-21,18708.87,3,7,14,Visit -> Drug -> Laboratory -> Laboratory -> Drug -> Drug -> Laboratory,63,Male,Other,Cardiology,DOC_010
+SYNTH_000010,SYN_000010_E002,2024-07-06,2024-07-07,5122.41,3,5,1,Visit -> Drug -> Drug -> Radiology -> Radiology,63,Male,Other,Neurology,DOC_005
+SYNTH_000010,SYN_000010_E003,2024-09-04,2024-09-11,3652.09,3,5,7,Visit -> Laboratory -> Laboratory -> Laboratory -> Radiology,63,Male,Other,ENT,DOC_008
+SYNTH_000010,SYN_000010_E004,2024-09-18,2024-09-19,14808.5,4,7,1,Visit -> Drug -> Drug -> Laboratory -> Drug -> Radiology -> Drug,63,Male,Other,Gynecology,DOC_008
+SYNTH_000011,SYN_000011_E001,2024-01-29,2024-01-31,8220.55,4,6,2,Visit -> Drug -> Drug -> Laboratory -> Radiology -> Laboratory,38,Male,Social Security,Orthopedics,DOC_001
+SYNTH_000011,SYN_000011_E002,2024-03-29,2024-03-30,19628.63,2,2,1,Visit -> Drug,38,Male,Social Security,General Practice,DOC_006
+SYNTH_000011,SYN_000011_E003,2024-04-28,2024-04-28,9361.84,2,2,0,Visit -> Laboratory,38,Male,Social Security,Cardiology,DOC_001
+SYNTH_000012,SYN_000012_E001,2024-07-25,2024-07-28,4364.42,2,3,3,Visit -> Radiology -> Radiology,53,Female,Social Security,ENT,DOC_010
+SYNTH_000012,SYN_000012_E002,2024-08-24,2024-08-25,3651.1,3,5,1,Visit -> ClinicalService -> Laboratory -> Laboratory -> Laboratory,53,Female,Social Security,Gynecology,DOC_004
+SYNTH_000012,SYN_000012_E003,2024-09-23,2024-09-28,5194.45,3,4,5,Visit -> Laboratory -> Drug -> Laboratory,53,Female,Social Security,Orthopedics,DOC_003
+SYNTH_000012,SYN_000012_E004,2024-12-22,2024-12-25,11604.23,4,4,3,Visit -> Drug -> Laboratory -> Radiology,53,Female,Social Security,Cardiology,DOC_009
+SYNTH_000013,SYN_000013_E001,2024-05-26,2024-05-27,4117.41,5,7,1,Visit -> Drug -> Laboratory -> Drug -> Radiology -> Drug -> ClinicalService,32,Female,Social Security,Dermatology,DOC_006
+SYNTH_000013,SYN_000013_E002,2024-07-10,2024-07-13,7837.62,4,7,3,Visit -> ClinicalService -> Drug -> Laboratory -> Drug -> Laboratory -> Drug,32,Female,Social Security,Neurology,DOC_008
+SYNTH_000013,SYN_000013_E003,2024-08-09,2024-08-09,24946.84,5,6,0,Visit -> Radiology -> Laboratory -> Laboratory -> ClinicalService -> Drug,32,Female,Social Security,ENT,DOC_008
+SYNTH_000013,SYN_000013_E004,2024-09-08,2024-09-13,5419.75,3,3,5,Visit -> Drug -> ClinicalService,32,Female,Social Security,Gynecology,DOC_008
+SYNTH_000014,SYN_000014_E001,2024-02-06,2024-02-11,13751.32,4,5,5,Visit -> Laboratory -> Radiology -> Laboratory -> ClinicalService,42,Male,Social Security,General Practice,DOC_010
+SYNTH_000014,SYN_000014_E002,2024-05-06,2024-05-09,5327.96,4,6,3,Visit -> ClinicalService -> Drug -> ClinicalService -> Laboratory -> Drug,42,Male,Social Security,Neurology,DOC_001
+SYNTH_000014,SYN_000014_E003,2024-06-05,2024-06-15,5143.04,3,4,10,Visit -> Laboratory -> Laboratory -> Drug,42,Male,Social Security,Dermatology,DOC_009
+SYNTH_000014,SYN_000014_E004,2024-09-03,2024-09-03,10811.53,4,7,0,Visit -> Drug -> Radiology -> Drug -> ClinicalService -> Radiology -> Radiology,42,Male,Social Security,Cardiology,DOC_001
+SYNTH_000014,SYN_000014_E005,2024-09-24,2024-09-27,2965.61,4,7,3,Visit -> Drug -> ClinicalService -> Radiology -> Drug -> Drug -> Drug,42,Male,Social Security,Neurology,DOC_002
+SYNTH_000015,SYN_000015_E001,2024-07-15,2024-07-22,5872.77,2,2,7,Visit -> Radiology,18,Male,Social Security,Gynecology,DOC_010
+SYNTH_000015,SYN_000015_E002,2024-08-29,2024-09-01,9500.77,4,7,3,Visit -> Drug -> Radiology -> Drug -> Drug -> Radiology -> ClinicalService,18,Male,Social Security,ENT,DOC_001
+SYNTH_000015,SYN_000015_E003,2024-09-05,2024-09-19,3153.58,2,4,14,Visit -> Drug -> Drug -> Drug,18,Male,Social Security,Internal Medicine,DOC_009
+SYNTH_000015,SYN_000015_E004,2024-10-20,2024-10-25,6362.63,4,5,5,Visit -> Drug -> ClinicalService -> Drug -> Laboratory,18,Male,Social Security,Dermatology,DOC_009
+SYNTH_000016,SYN_000016_E001,2024-08-11,2024-08-12,7050.75,2,2,1,Visit -> Drug,51,Female,Health Insurance,Neurology,DOC_002
+SYNTH_000016,SYN_000016_E002,2024-09-25,2024-09-27,11151.98,3,7,2,Visit -> Laboratory -> Drug -> Laboratory -> Drug -> Drug -> Laboratory,51,Female,Health Insurance,Neurology,DOC_007
+SYNTH_000016,SYN_000016_E003,2024-10-25,2024-10-27,11773.43,4,6,2,Visit -> Laboratory -> Radiology -> Drug -> Radiology -> Laboratory,51,Female,Health Insurance,Neurology,DOC_006
+SYNTH_000017,SYN_000017_E001,2024-02-01,2024-02-03,12359.9,4,5,2,Visit -> Laboratory -> Radiology -> Drug -> Radiology,49,Male,Private,Gynecology,DOC_009
+SYNTH_000017,SYN_000017_E002,2024-04-01,2024-04-02,5550.13,2,2,1,Visit -> Drug,49,Male,Private,ENT,DOC_001
+SYNTH_000017,SYN_000017_E003,2024-04-08,2024-04-10,7128.36,4,6,2,Visit -> ClinicalService -> Laboratory -> Drug -> Laboratory -> Drug,49,Male,Private,Cardiology,DOC_005
+SYNTH_000017,SYN_000017_E004,2024-06-07,2024-06-10,11058.83,4,6,3,Visit -> Radiology -> Laboratory -> Laboratory -> Drug -> Drug,49,Male,Private,Neurology,DOC_004
+SYNTH_000018,SYN_000018_E001,2024-05-16,2024-05-18,20798.37,4,6,2,Visit -> Drug -> Laboratory -> Laboratory -> Drug -> Radiology,61,Male,Other,Internal Medicine,DOC_009
+SYNTH_000018,SYN_000018_E002,2024-05-30,2024-05-30,1853.17,3,7,0,Visit -> Drug -> Drug -> Drug -> Laboratory -> Laboratory -> Laboratory,61,Male,Other,Gynecology,DOC_003
+SYNTH_000018,SYN_000018_E003,2024-07-14,2024-07-17,11543.84,4,4,3,Visit -> Radiology -> Drug -> Laboratory,61,Male,Other,Orthopedics,DOC_007
+SYNTH_000018,SYN_000018_E004,2024-08-13,2024-08-15,3552.07,3,6,2,Visit -> ClinicalService -> Laboratory -> ClinicalService -> Laboratory -> ClinicalService,61,Male,Other,Dermatology,DOC_006
+SYNTH_000018,SYN_000018_E005,2024-11-11,2024-11-21,6647.98,2,4,10,Visit -> Drug -> Drug -> Drug,61,Male,Other,Dermatology,DOC_007
+SYNTH_000019,SYN_000019_E001,2024-03-09,2024-03-19,1391.9,4,5,10,Visit -> ClinicalService -> Laboratory -> Laboratory -> Radiology,18,Female,Social Security,Internal Medicine,DOC_008
+SYNTH_000019,SYN_000019_E002,2024-05-08,2024-05-22,14729.3,5,7,14,Visit -> Drug -> Radiology -> Laboratory -> Laboratory -> Radiology -> ClinicalService,18,Female,Social Security,Dermatology,DOC_005
+SYNTH_000019,SYN_000019_E003,2024-07-07,2024-07-12,3202.51,2,2,5,Visit -> Drug,18,Female,Social Security,Dermatology,DOC_004
+SYNTH_000020,SYN_000020_E001,2024-04-10,2024-04-10,2873.81,4,5,0,Visit -> Laboratory -> Radiology -> ClinicalService -> Radiology,49,Female,Other,General Practice,DOC_008
+SYNTH_000020,SYN_000020_E002,2024-04-17,2024-04-17,6255.79,3,6,0,Visit -> Radiology -> Radiology -> ClinicalService -> Radiology -> Radiology,49,Female,Other,General Practice,DOC_010
+SYNTH_000021,SYN_000021_E001,2024-03-05,2024-03-15,8607.35,2,2,10,Visit -> Laboratory,37,Female,Health Insurance,Dermatology,DOC_006
+SYNTH_000022,SYN_000022_E001,2024-08-09,2024-08-09,7504.4,4,5,0,Visit -> Laboratory -> Drug -> ClinicalService -> Drug,18,Male,Private,Cardiology,DOC_008
+SYNTH_000022,SYN_000022_E002,2024-10-08,2024-10-13,2222.08,4,5,5,Visit -> Laboratory -> Drug -> Laboratory -> ClinicalService,18,Male,Private,Orthopedics,DOC_010
+SYNTH_000023,SYN_000023_E001,2024-02-02,2024-02-02,2321.36,2,2,0,Visit -> Drug,37,Female,Health Insurance,General Practice,DOC_004
+SYNTH_000023,SYN_000023_E002,2024-02-23,2024-02-24,5489.57,4,4,1,Visit -> ClinicalService -> Radiology -> Laboratory,37,Female,Health Insurance,General Practice,DOC_005
+SYNTH_000024,SYN_000024_E001,2024-08-29,2024-08-30,33463.0,3,5,1,Visit -> Radiology -> Drug -> Drug -> Drug,18,Male,Health Insurance,Dermatology,DOC_003
+SYNTH_000024,SYN_000024_E002,2024-10-28,2024-11-07,5560.51,4,5,10,Visit -> Laboratory -> ClinicalService -> Radiology -> Radiology,18,Male,Health Insurance,Orthopedics,DOC_008
+SYNTH_000024,SYN_000024_E003,2024-11-27,2024-12-07,5926.98,2,2,10,Visit -> Radiology,18,Male,Health Insurance,Neurology,DOC_004
+SYNTH_000024,SYN_000024_E004,2024-12-04,2024-12-06,4351.32,3,6,2,Visit -> Drug -> Drug -> Drug -> Laboratory -> Laboratory,18,Male,Health Insurance,Gynecology,DOC_010
+SYNTH_000025,SYN_000025_E001,2024-02-20,2024-02-27,5106.54,3,4,7,Visit -> Laboratory -> Drug -> Drug,63,Female,Organization,Gynecology,DOC_004
+SYNTH_000025,SYN_000025_E002,2024-03-21,2024-03-28,6785.7,3,3,7,Visit -> Laboratory -> Radiology,63,Female,Organization,Neurology,DOC_001
+SYNTH_000025,SYN_000025_E003,2024-04-11,2024-04-12,13240.76,5,7,1,Visit -> Drug -> Drug -> ClinicalService -> Drug -> Laboratory -> Radiology,63,Female,Organization,Gynecology,DOC_005
+SYNTH_000026,SYN_000026_E001,2024-02-16,2024-02-17,7705.34,2,2,1,Visit -> Laboratory,50,Male,Social Security,ENT,DOC_001
+SYNTH_000026,SYN_000026_E002,2024-04-16,2024-04-19,5718.14,2,2,3,Visit -> ClinicalService,50,Male,Social Security,General Practice,DOC_005
+SYNTH_000026,SYN_000026_E003,2024-06-15,2024-06-29,8084.77,2,3,14,Visit -> Laboratory -> Laboratory,50,Male,Social Security,Cardiology,DOC_003
+SYNTH_000026,SYN_000026_E004,2024-07-06,2024-07-06,1891.91,3,6,0,Visit -> Laboratory -> Drug -> Laboratory -> Drug -> Drug,50,Male,Social Security,Gynecology,DOC_006
+SYNTH_000026,SYN_000026_E005,2024-07-20,2024-07-25,12451.89,5,7,5,Visit -> Radiology -> Drug -> ClinicalService -> Laboratory -> Drug -> Drug,50,Male,Social Security,Dermatology,DOC_008
+SYNTH_000027,SYN_000027_E001,2024-01-05,2024-01-08,5412.02,4,5,3,Visit -> Drug -> ClinicalService -> ClinicalService -> Laboratory,21,Male,Social Security,Orthopedics,DOC_010
+SYNTH_000027,SYN_000027_E002,2024-02-19,2024-02-19,12001.23,2,3,0,Visit -> Radiology -> Radiology,21,Male,Social Security,Orthopedics,DOC_002
+SYNTH_000027,SYN_000027_E003,2024-04-19,2024-04-22,5243.1,3,5,3,Visit -> Laboratory -> Laboratory -> Radiology -> Radiology,21,Male,Social Security,ENT,DOC_003
+SYNTH_000027,SYN_000027_E004,2024-05-19,2024-05-19,8659.43,4,5,0,Visit -> Drug -> Radiology -> Laboratory -> Laboratory,21,Male,Social Security,Orthopedics,DOC_010
+SYNTH_000027,SYN_000027_E005,2024-07-03,2024-07-13,1884.19,3,4,10,Visit -> Drug -> Drug -> ClinicalService,21,Male,Social Security,Neurology,DOC_002
+SYNTH_000028,SYN_000028_E001,2024-04-02,2024-04-07,11681.38,2,2,5,Visit -> Radiology,18,Male,Private,Neurology,DOC_006
+SYNTH_000028,SYN_000028_E002,2024-07-01,2024-07-03,26523.22,4,7,2,Visit -> Radiology -> Drug -> Drug -> Radiology -> Drug -> ClinicalService,18,Male,Private,Dermatology,DOC_007
+SYNTH_000028,SYN_000028_E003,2024-07-31,2024-08-10,3935.94,2,4,10,Visit -> Laboratory -> Laboratory -> Laboratory,18,Male,Private,Dermatology,DOC_004
+SYNTH_000028,SYN_000028_E004,2024-08-21,2024-08-23,8380.01,3,4,2,Visit -> Drug -> Drug -> Radiology,18,Male,Private,Orthopedics,DOC_004
+SYNTH_000029,SYN_000029_E001,2024-03-25,2024-03-27,5048.08,3,3,2,Visit -> Drug -> Laboratory,19,Female,Private,Cardiology,DOC_005
+SYNTH_000029,SYN_000029_E002,2024-04-24,2024-04-25,4255.95,3,3,1,Visit -> Laboratory -> Drug,19,Female,Private,General Practice,DOC_010
+SYNTH_000029,SYN_000029_E003,2024-06-23,2024-06-26,991.73,3,7,3,Visit -> ClinicalService -> ClinicalService -> ClinicalService -> Drug -> Drug -> Drug,19,Female,Private,Dermatology,DOC_008
+SYNTH_000029,SYN_000029_E004,2024-08-07,2024-08-12,7240.16,4,5,5,Visit -> Drug -> Drug -> ClinicalService -> Laboratory,19,Female,Private,Neurology,DOC_006
+SYNTH_000030,SYN_000030_E001,2024-07-08,2024-07-15,3804.19,3,5,7,Visit -> Drug -> ClinicalService -> Drug -> Drug,52,Female,Private,General Practice,DOC_003
+SYNTH_000031,SYN_000031_E001,2024-06-23,2024-06-24,3264.65,3,5,1,Visit -> Drug -> Laboratory -> Drug -> Drug,55,Male,Social Security,Internal Medicine,DOC_009
+SYNTH_000031,SYN_000031_E002,2024-08-22,2024-08-23,5377.36,2,5,1,Visit -> Laboratory -> Laboratory -> Laboratory -> Laboratory,55,Male,Social Security,ENT,DOC_004
+SYNTH_000031,SYN_000031_E003,2024-09-21,2024-09-22,4512.76,2,2,1,Visit -> Laboratory,55,Male,Social Security,ENT,DOC_010
+SYNTH_000031,SYN_000031_E004,2024-09-28,2024-10-12,4658.29,3,7,14,Visit -> Drug -> Laboratory -> Laboratory -> Laboratory -> Laboratory -> Drug,55,Male,Social Security,Internal Medicine,DOC_002
+SYNTH_000031,SYN_000031_E005,2024-10-28,2024-11-02,13194.87,4,6,5,Visit -> Drug -> Drug -> Drug -> Radiology -> Laboratory,55,Male,Social Security,ENT,DOC_002
+SYNTH_000032,SYN_000032_E001,2024-06-05,2024-06-06,5437.24,3,5,1,Visit -> Drug -> Drug -> Laboratory -> Drug,47,Male,Health Insurance,ENT,DOC_001
+SYNTH_000032,SYN_000032_E002,2024-09-03,2024-09-06,2595.44,3,3,3,Visit -> Radiology -> Laboratory,47,Male,Health Insurance,Gynecology,DOC_007
+SYNTH_000033,SYN_000033_E001,2024-01-23,2024-01-26,20958.05,5,7,3,Visit -> Drug -> Laboratory -> ClinicalService -> Radiology -> ClinicalService -> Laboratory,53,Male,Social Security,Dermatology,DOC_010
+SYNTH_000033,SYN_000033_E002,2024-02-13,2024-02-23,10992.34,3,4,10,Visit -> Laboratory -> Radiology -> Laboratory,53,Male,Social Security,Dermatology,DOC_008
+SYNTH_000034,SYN_000034_E001,2024-04-17,2024-04-18,3977.06,3,6,1,Visit -> Radiology -> Radiology -> Radiology -> Drug -> Drug,31,Female,Health Insurance,Cardiology,DOC_002
+SYNTH_000034,SYN_000034_E002,2024-05-08,2024-05-18,10105.7,3,6,10,Visit -> Drug -> Drug -> Drug -> Drug -> Radiology,31,Female,Health Insurance,General Practice,DOC_010
+SYNTH_000034,SYN_000034_E003,2024-06-22,2024-06-24,5187.54,4,5,2,Visit -> Drug -> Laboratory -> Drug -> ClinicalService,31,Female,Health Insurance,ENT,DOC_010
+SYNTH_000035,SYN_000035_E001,2024-05-29,2024-06-01,8274.56,3,3,3,Visit -> ClinicalService -> Drug,35,Male,Private,Cardiology,DOC_005
+SYNTH_000035,SYN_000035_E002,2024-06-19,2024-06-26,5096.83,2,3,7,Visit -> ClinicalService -> ClinicalService,35,Male,Private,Gynecology,DOC_009
+SYNTH_000035,SYN_000035_E003,2024-08-18,2024-08-19,4864.97,2,2,1,Visit -> Laboratory,35,Male,Private,Internal Medicine,DOC_008
+SYNTH_000035,SYN_000035_E004,2024-09-08,2024-09-09,7004.82,5,5,1,Visit -> Laboratory -> Drug -> Radiology -> ClinicalService,35,Male,Private,Neurology,DOC_005
+SYNTH_000035,SYN_000035_E005,2024-11-07,2024-11-09,1831.46,3,3,2,Visit -> Radiology -> Drug,35,Male,Private,Internal Medicine,DOC_009
+SYNTH_000036,SYN_000036_E001,2024-05-31,2024-06-05,4499.31,2,3,5,Visit -> Drug -> Drug,49,Female,Health Insurance,Gynecology,DOC_010
+SYNTH_000036,SYN_000036_E002,2024-07-15,2024-07-16,3830.36,2,2,1,Visit -> Radiology,49,Female,Health Insurance,Gynecology,DOC_005
+SYNTH_000036,SYN_000036_E003,2024-08-14,2024-08-28,24020.69,5,6,14,Visit -> ClinicalService -> ClinicalService -> Laboratory -> Drug -> Radiology,49,Female,Health Insurance,Cardiology,DOC_007
+SYNTH_000037,SYN_000037_E001,2024-06-13,2024-06-15,11567.19,2,3,2,Visit -> Radiology -> Radiology,56,Male,Social Security,ENT,DOC_004
+SYNTH_000037,SYN_000037_E002,2024-08-12,2024-08-12,4592.06,3,4,0,Visit -> ClinicalService -> Drug -> ClinicalService,56,Male,Social Security,ENT,DOC_002
+SYNTH_000038,SYN_000038_E001,2024-01-22,2024-01-29,3794.66,3,6,7,Visit -> Drug -> Radiology -> Radiology -> Drug -> Drug,27,Male,Social Security,Neurology,DOC_009
+SYNTH_000039,SYN_000039_E001,2024-05-13,2024-05-18,13162.96,3,3,5,Visit -> Radiology -> Laboratory,32,Female,Health Insurance,Dermatology,DOC_006
+SYNTH_000040,SYN_000040_E001,2024-08-23,2024-08-24,7985.78,2,2,1,Visit -> Drug,18,Male,Private,General Practice,DOC_008
+SYNTH_000040,SYN_000040_E002,2024-11-21,2024-11-22,5655.47,4,7,1,Visit -> Laboratory -> Laboratory -> ClinicalService -> ClinicalService -> ClinicalService -> Drug,18,Male,Private,ENT,DOC_002
+SYNTH_000041,SYN_000041_E001,2024-05-14,2024-05-16,4239.02,3,4,2,Visit -> Drug -> Drug -> Laboratory,18,Male,Health Insurance,Neurology,DOC_009
+SYNTH_000041,SYN_000041_E002,2024-07-13,2024-07-16,3893.01,3,6,3,Visit -> Laboratory -> Laboratory -> Drug -> Laboratory -> Drug,18,Male,Health Insurance,Dermatology,DOC_002
+SYNTH_000041,SYN_000041_E003,2024-07-20,2024-07-22,6324.39,4,5,2,Visit -> Laboratory -> Drug -> ClinicalService -> Laboratory,18,Male,Health Insurance,General Practice,DOC_003
+SYNTH_000041,SYN_000041_E004,2024-08-03,2024-08-04,5184.79,3,5,1,Visit -> Drug -> Radiology -> Drug -> Drug,18,Male,Health Insurance,Gynecology,DOC_005
+SYNTH_000042,SYN_000042_E001,2024-03-25,2024-03-26,6862.13,2,2,1,Visit -> Laboratory,43,Male,Social Security,Cardiology,DOC_003
+SYNTH_000042,SYN_000042_E002,2024-06-23,2024-06-28,17371.04,4,6,5,Visit -> Drug -> Drug -> Laboratory -> Drug -> ClinicalService,43,Male,Social Security,General Practice,DOC_010
+SYNTH_000042,SYN_000042_E003,2024-09-21,2024-09-23,3102.15,2,2,2,Visit -> Laboratory,43,Male,Social Security,General Practice,DOC_005
+SYNTH_000042,SYN_000042_E004,2024-11-20,2024-11-23,7090.18,3,6,3,Visit -> Laboratory -> Laboratory -> ClinicalService -> Laboratory -> Laboratory,43,Male,Social Security,Gynecology,DOC_002
+SYNTH_000042,SYN_000042_E005,2024-12-04,2024-12-07,11923.28,2,2,3,Visit -> ClinicalService,43,Male,Social Security,Gynecology,DOC_010
+SYNTH_000043,SYN_000043_E001,2024-07-15,2024-07-17,5797.65,3,4,2,Visit -> Drug -> Laboratory -> Laboratory,63,Male,Other,Gynecology,DOC_008
+SYNTH_000043,SYN_000043_E002,2024-08-05,2024-08-06,7726.12,2,2,1,Visit -> Drug,63,Male,Other,Gynecology,DOC_004
+SYNTH_000043,SYN_000043_E003,2024-08-19,2024-08-22,14299.98,4,5,3,Visit -> Radiology -> Drug -> Radiology -> ClinicalService,63,Male,Other,Neurology,DOC_008
+SYNTH_000043,SYN_000043_E004,2024-11-17,2024-11-17,3582.85,2,2,0,Visit -> Laboratory,63,Male,Other,ENT,DOC_004
+SYNTH_000044,SYN_000044_E001,2024-07-01,2024-07-06,2099.75,3,3,5,Visit -> Laboratory -> Drug,51,Male,Social Security,Internal Medicine,DOC_009
+SYNTH_000044,SYN_000044_E002,2024-07-22,2024-07-25,10275.11,4,5,3,Visit -> Drug -> Drug -> Radiology -> Laboratory,51,Male,Social Security,Neurology,DOC_009
+SYNTH_000045,SYN_000045_E001,2024-08-23,2024-08-26,1216.21,4,4,3,Visit -> Drug -> Radiology -> Laboratory,33,Male,Health Insurance,Gynecology,DOC_006
+SYNTH_000046,SYN_000046_E001,2024-02-01,2024-02-04,3716.37,4,6,3,Visit -> Radiology -> Drug -> Drug -> ClinicalService -> Drug,67,Male,Health Insurance,General Practice,DOC_009
+SYNTH_000046,SYN_000046_E002,2024-02-15,2024-02-15,8131.78,2,2,0,Visit -> Laboratory,67,Male,Health Insurance,Dermatology,DOC_007
+SYNTH_000047,SYN_000047_E001,2024-02-16,2024-02-23,19256.99,3,3,7,Visit -> ClinicalService -> Laboratory,18,Female,Social Security,Neurology,DOC_004
+SYNTH_000047,SYN_000047_E002,2024-04-01,2024-04-11,8244.44,4,7,10,Visit -> Laboratory -> Laboratory -> Laboratory -> Drug -> Laboratory -> ClinicalService,18,Female,Social Security,General Practice,DOC_010
+SYNTH_000047,SYN_000047_E003,2024-04-22,2024-04-22,27069.55,4,4,0,Visit -> ClinicalService -> Radiology -> Drug,18,Female,Social Security,Orthopedics,DOC_010
+SYNTH_000048,SYN_000048_E001,2024-05-19,2024-06-02,17658.45,3,6,14,Visit -> Drug -> ClinicalService -> Drug -> Drug -> Drug,38,Female,Other,Dermatology,DOC_004
+SYNTH_000048,SYN_000048_E002,2024-07-03,2024-07-06,9567.55,4,6,3,Visit -> ClinicalService -> Radiology -> ClinicalService -> Drug -> Radiology,38,Female,Other,Neurology,DOC_006
+SYNTH_000048,SYN_000048_E003,2024-10-01,2024-10-01,6460.32,3,6,0,Visit -> Laboratory -> Laboratory -> Laboratory -> Laboratory -> Drug,38,Female,Other,Neurology,DOC_008
+SYNTH_000048,SYN_000048_E004,2024-12-30,2024-12-31,5657.01,3,5,1,Visit -> Drug -> Drug -> Drug -> ClinicalService,38,Female,Other,Neurology,DOC_009
+SYNTH_000049,SYN_000049_E001,2024-08-16,2024-08-19,5755.66,3,3,3,Visit -> Laboratory -> ClinicalService,66,Male,Social Security,General Practice,DOC_002
+SYNTH_000050,SYN_000050_E001,2024-06-02,2024-06-12,5236.28,3,4,10,Visit -> Drug -> Drug -> Laboratory,37,Male,Private,Gynecology,DOC_002
+SYNTH_000050,SYN_000050_E002,2024-07-02,2024-07-07,11709.95,4,5,5,Visit -> Radiology -> Radiology -> Laboratory -> Drug,37,Male,Private,Neurology,DOC_002
+SYNTH_000050,SYN_000050_E003,2024-07-16,2024-07-19,3679.39,2,2,3,Visit -> Laboratory,37,Male,Private,Cardiology,DOC_009
+SYNTH_000050,SYN_000050_E004,2024-10-14,2024-10-17,9642.83,3,5,3,Visit -> Laboratory -> Drug -> Laboratory -> Drug,37,Male,Private,General Practice,DOC_005
+SYNTH_000051,SYN_000051_E001,2024-04-26,2024-04-29,28224.65,4,6,3,Visit -> Laboratory -> Radiology -> Laboratory -> Laboratory -> ClinicalService,72,Female,Private,Dermatology,DOC_001
+SYNTH_000051,SYN_000051_E002,2024-06-10,2024-06-11,2472.36,3,7,1,Visit -> Laboratory -> Laboratory -> Radiology -> Laboratory -> Radiology -> Laboratory,72,Female,Private,ENT,DOC_010
+SYNTH_000052,SYN_000052_E001,2024-02-25,2024-02-26,16779.02,3,3,1,Visit -> Drug -> ClinicalService,65,Female,Organization,Gynecology,DOC_008
+SYNTH_000052,SYN_000052_E002,2024-03-26,2024-03-27,5301.98,4,6,1,Visit -> Radiology -> Drug -> Laboratory -> Laboratory -> Drug,65,Female,Organization,Internal Medicine,DOC_009
+SYNTH_000052,SYN_000052_E003,2024-04-25,2024-04-27,5004.27,4,6,2,Visit -> Drug -> Laboratory -> Radiology -> Radiology -> Radiology,65,Female,Organization,ENT,DOC_009
+SYNTH_000052,SYN_000052_E004,2024-05-16,2024-05-21,18647.22,3,3,5,Visit -> Laboratory -> Drug,65,Female,Organization,Internal Medicine,DOC_002
+SYNTH_000053,SYN_000053_E001,2024-03-15,2024-03-18,7376.84,4,7,3,Visit -> Radiology -> ClinicalService -> Laboratory -> Laboratory -> ClinicalService -> ClinicalService,46,Female,Health Insurance,ENT,DOC_004
+SYNTH_000053,SYN_000053_E002,2024-05-14,2024-05-16,7983.48,3,4,2,Visit -> Drug -> Drug -> Laboratory,46,Female,Health Insurance,Internal Medicine,DOC_004
+SYNTH_000053,SYN_000053_E003,2024-06-13,2024-06-15,9878.82,4,7,2,Visit -> Drug -> Radiology -> Radiology -> ClinicalService -> ClinicalService -> ClinicalService,46,Female,Health Insurance,Dermatology,DOC_009
+SYNTH_000053,SYN_000053_E004,2024-07-28,2024-08-07,4027.29,3,7,10,Visit -> Drug -> Laboratory -> Drug -> Drug -> Drug -> Drug,46,Female,Health Insurance,General Practice,DOC_007
+SYNTH_000054,SYN_000054_E001,2024-02-25,2024-02-28,2132.63,3,3,3,Visit -> ClinicalService -> Drug,33,Male,Social Security,ENT,DOC_010
+SYNTH_000055,SYN_000055_E001,2024-01-02,2024-01-04,2025.23,3,4,2,Visit -> Drug -> Radiology -> Radiology,33,Female,Social Security,Neurology,DOC_010
+SYNTH_000055,SYN_000055_E002,2024-01-09,2024-01-16,3303.83,3,4,7,Visit -> Drug -> Drug -> Laboratory,33,Female,Social Security,Orthopedics,DOC_006
+SYNTH_000055,SYN_000055_E003,2024-03-09,2024-03-11,2069.74,3,4,2,Visit -> Drug -> Drug -> Laboratory,33,Female,Social Security,Gynecology,DOC_002
+SYNTH_000055,SYN_000055_E004,2024-04-23,2024-05-03,9859.12,2,2,10,Visit -> Laboratory,33,Female,Social Security,Internal Medicine,DOC_010
+SYNTH_000055,SYN_000055_E005,2024-06-22,2024-06-23,4152.35,2,2,1,Visit -> Laboratory,33,Female,Social Security,Neurology,DOC_010
+SYNTH_000056,SYN_000056_E001,2024-05-12,2024-05-13,2962.97,2,3,1,Visit -> Drug -> Drug,54,Female,Other,ENT,DOC_007
+SYNTH_000056,SYN_000056_E002,2024-05-26,2024-05-27,10088.39,4,5,1,Visit -> Drug -> Drug -> Laboratory -> Radiology,54,Female,Other,Neurology,DOC_009
+SYNTH_000056,SYN_000056_E003,2024-07-25,2024-07-27,3082.43,3,3,2,Visit -> Drug -> ClinicalService,54,Female,Other,Neurology,DOC_001
+SYNTH_000056,SYN_000056_E004,2024-08-08,2024-08-10,4889.28,2,2,2,Visit -> Radiology,54,Female,Other,General Practice,DOC_008
+SYNTH_000057,SYN_000057_E001,2024-07-02,2024-07-05,4261.98,3,4,3,Visit -> Drug -> Laboratory -> Laboratory,18,Male,Private,Orthopedics,DOC_003
+SYNTH_000058,SYN_000058_E001,2024-06-29,2024-07-13,9828.84,3,3,14,Visit -> Drug -> Radiology,35,Female,Social Security,Cardiology,DOC_007
+SYNTH_000058,SYN_000058_E002,2024-09-27,2024-09-27,6601.64,3,4,0,Visit -> Laboratory -> Laboratory -> ClinicalService,35,Female,Social Security,Orthopedics,DOC_004
+SYNTH_000058,SYN_000058_E003,2024-10-18,2024-10-20,15504.45,4,5,2,Visit -> ClinicalService -> ClinicalService -> Drug -> Radiology,35,Female,Social Security,Orthopedics,DOC_008
+SYNTH_000058,SYN_000058_E004,2024-12-17,2024-12-22,3370.67,2,2,5,Visit -> Drug,35,Female,Social Security,Neurology,DOC_010
+SYNTH_000059,SYN_000059_E001,2024-07-02,2024-07-03,2737.41,4,4,1,Visit -> ClinicalService -> Drug -> Radiology,33,Female,Private,General Practice,DOC_009
+SYNTH_000059,SYN_000059_E002,2024-07-16,2024-07-26,3353.96,2,4,10,Visit -> Drug -> Drug -> Drug,33,Female,Private,Orthopedics,DOC_006
+SYNTH_000060,SYN_000060_E001,2024-04-26,2024-05-03,1937.58,2,2,7,Visit -> Drug,18,Male,Health Insurance,General Practice,DOC_005
+SYNTH_000061,SYN_000061_E001,2024-08-26,2024-08-26,20969.46,2,6,0,Visit -> Drug -> Drug -> Drug -> Drug -> Drug,56,Male,Social Security,Internal Medicine,DOC_010
+SYNTH_000061,SYN_000061_E002,2024-09-09,2024-09-12,3038.54,4,6,3,Visit -> Laboratory -> Radiology -> Laboratory -> ClinicalService -> Laboratory,56,Male,Social Security,Gynecology,DOC_006
+SYNTH_000062,SYN_000062_E001,2024-04-13,2024-04-20,2003.97,2,3,7,Visit -> Drug -> Drug,61,Female,Social Security,ENT,DOC_008
+SYNTH_000062,SYN_000062_E002,2024-06-12,2024-06-13,18540.91,5,7,1,Visit -> Drug -> Drug -> Radiology -> ClinicalService -> Drug -> Laboratory,61,Female,Social Security,Gynecology,DOC_001
+SYNTH_000062,SYN_000062_E003,2024-07-27,2024-07-27,3298.12,3,5,0,Visit -> Drug -> Radiology -> Radiology -> Radiology,61,Female,Social Security,ENT,DOC_002
+SYNTH_000063,SYN_000063_E001,2024-07-22,2024-07-27,3394.22,3,3,5,Visit -> Radiology -> Laboratory,23,Male,Health Insurance,Dermatology,DOC_008
+SYNTH_000063,SYN_000063_E002,2024-09-05,2024-09-15,15700.53,4,7,10,Visit -> Laboratory -> Laboratory -> Radiology -> Drug -> Laboratory -> Laboratory,23,Male,Health Insurance,Dermatology,DOC_010
+SYNTH_000064,SYN_000064_E001,2024-02-14,2024-02-16,2477.14,2,2,2,Visit -> Drug,64,Female,Health Insurance,Neurology,DOC_003
+SYNTH_000064,SYN_000064_E002,2024-02-21,2024-02-23,5152.06,4,5,2,Visit -> Drug -> ClinicalService -> Drug -> Laboratory,64,Female,Health Insurance,General Practice,DOC_003
+SYNTH_000064,SYN_000064_E003,2024-04-21,2024-04-28,1274.72,3,3,7,Visit -> Laboratory -> Radiology,64,Female,Health Insurance,Internal Medicine,DOC_003
+SYNTH_000065,SYN_000065_E001,2024-03-05,2024-03-06,8523.84,3,6,1,Visit -> ClinicalService -> Laboratory -> Laboratory -> ClinicalService -> ClinicalService,49,Male,Social Security,Dermatology,DOC_006
+SYNTH_000065,SYN_000065_E002,2024-03-26,2024-03-31,4317.76,2,4,5,Visit -> ClinicalService -> ClinicalService -> ClinicalService,49,Male,Social Security,Gynecology,DOC_010
+SYNTH_000065,SYN_000065_E003,2024-04-25,2024-04-30,2261.73,2,3,5,Visit -> Laboratory -> Laboratory,49,Male,Social Security,General Practice,DOC_006
+SYNTH_000065,SYN_000065_E004,2024-05-09,2024-05-10,4629.39,3,3,1,Visit -> ClinicalService -> Laboratory,49,Male,Social Security,Orthopedics,DOC_005
+SYNTH_000066,SYN_000066_E001,2024-03-03,2024-03-06,4455.13,2,3,3,Visit -> Drug -> Drug,38,Male,Social Security,Dermatology,DOC_009
+SYNTH_000066,SYN_000066_E002,2024-03-17,2024-03-24,6168.6,3,3,7,Visit -> Laboratory -> Drug,38,Male,Social Security,Orthopedics,DOC_007
+SYNTH_000067,SYN_000067_E001,2024-05-14,2024-05-16,18865.25,5,7,2,Visit -> Radiology -> Radiology -> Laboratory -> ClinicalService -> Laboratory -> Drug,41,Female,Other,Dermatology,DOC_002
+SYNTH_000067,SYN_000067_E002,2024-05-21,2024-05-24,3655.73,4,4,3,Visit -> Radiology -> Drug -> Laboratory,41,Female,Other,Internal Medicine,DOC_002
+SYNTH_000068,SYN_000068_E001,2024-07-30,2024-08-01,3578.63,3,5,2,Visit -> Drug -> Drug -> Drug -> Laboratory,18,Female,Social Security,Neurology,DOC_007
+SYNTH_000068,SYN_000068_E002,2024-10-28,2024-11-02,4595.67,3,5,5,Visit -> Drug -> ClinicalService -> ClinicalService -> Drug,18,Female,Social Security,Neurology,DOC_003
+SYNTH_000069,SYN_000069_E001,2024-07-27,2024-08-03,17292.9,4,7,7,Visit -> Laboratory -> Laboratory -> Drug -> Radiology -> Drug -> Radiology,54,Male,Social Security,General Practice,DOC_007
+SYNTH_000070,SYN_000070_E001,2024-06-28,2024-06-30,4046.78,5,7,2,Visit -> Drug -> Laboratory -> ClinicalService -> Radiology -> Drug -> ClinicalService,23,Male,Other,General Practice,DOC_004
+SYNTH_000071,SYN_000071_E001,2024-03-04,2024-03-04,24724.84,3,5,0,Visit -> Drug -> Drug -> Radiology -> Drug,30,Female,Other,General Practice,DOC_007
+SYNTH_000072,SYN_000072_E001,2024-07-26,2024-07-29,3753.3,3,3,3,Visit -> Laboratory -> ClinicalService,49,Male,Social Security,Dermatology,DOC_006
+SYNTH_000073,SYN_000073_E001,2024-02-07,2024-02-08,3387.56,2,2,1,Visit -> Drug,33,Male,Social Security,Internal Medicine,DOC_007
+SYNTH_000073,SYN_000073_E002,2024-03-08,2024-03-10,6195.93,3,3,2,Visit -> Drug -> Laboratory,33,Male,Social Security,General Practice,DOC_003
+SYNTH_000074,SYN_000074_E001,2024-03-20,2024-03-22,2875.63,3,6,2,Visit -> Laboratory -> Laboratory -> Laboratory -> Drug -> Laboratory,48,Female,Health Insurance,Neurology,DOC_008
+SYNTH_000074,SYN_000074_E002,2024-05-19,2024-05-20,7329.41,3,3,1,Visit -> Laboratory -> Radiology,48,Female,Health Insurance,ENT,DOC_010
+SYNTH_000075,SYN_000075_E001,2024-01-11,2024-01-13,5470.64,5,7,2,Visit -> Drug -> Drug -> ClinicalService -> Drug -> Laboratory -> Radiology,35,Female,Other,Cardiology,DOC_005
+SYNTH_000075,SYN_000075_E002,2024-02-10,2024-02-20,4391.88,2,2,10,Visit -> Drug,35,Female,Other,Orthopedics,DOC_001
+SYNTH_000075,SYN_000075_E003,2024-02-17,2024-03-02,4468.13,2,2,14,Visit -> Laboratory,35,Female,Other,Orthopedics,DOC_005
+SYNTH_000075,SYN_000075_E004,2024-04-17,2024-04-20,13683.9,4,4,3,Visit -> Drug -> ClinicalService -> Laboratory,35,Female,Other,Gynecology,DOC_002
+SYNTH_000076,SYN_000076_E001,2024-05-17,2024-05-22,3931.28,4,6,5,Visit -> Drug -> Radiology -> Drug -> Laboratory -> Drug,56,Female,Health Insurance,Internal Medicine,DOC_008
+SYNTH_000077,SYN_000077_E001,2024-01-11,2024-01-12,7356.91,3,4,1,Visit -> Drug -> Laboratory -> Drug,27,Female,Social Security,Gynecology,DOC_005
+SYNTH_000077,SYN_000077_E002,2024-04-10,2024-04-24,16001.65,2,2,14,Visit -> Radiology,27,Female,Social Security,Internal Medicine,DOC_007
+SYNTH_000077,SYN_000077_E003,2024-05-10,2024-05-11,4328.77,4,5,1,Visit -> Drug -> Laboratory -> Drug -> ClinicalService,27,Female,Social Security,Dermatology,DOC_009
+SYNTH_000078,SYN_000078_E001,2024-03-27,2024-03-29,2601.1,2,3,2,Visit -> Laboratory -> Laboratory,18,Female,Social Security,Cardiology,DOC_003
+SYNTH_000078,SYN_000078_E002,2024-04-03,2024-04-06,3101.59,2,3,3,Visit -> ClinicalService -> ClinicalService,18,Female,Social Security,Internal Medicine,DOC_003
+SYNTH_000079,SYN_000079_E001,2024-07-25,2024-07-27,2422.39,2,3,2,Visit -> Radiology -> Radiology,53,Male,Private,Neurology,DOC_009
+SYNTH_000079,SYN_000079_E002,2024-10-23,2024-10-26,3170.31,3,6,3,Visit -> Drug -> Radiology -> Drug -> Radiology -> Radiology,53,Male,Private,Neurology,DOC_005
+SYNTH_000079,SYN_000079_E003,2024-11-13,2024-11-23,13361.23,4,7,10,Visit -> Laboratory -> Drug -> Laboratory -> Laboratory -> ClinicalService -> Drug,53,Male,Private,Gynecology,DOC_005
+SYNTH_000079,SYN_000079_E004,2024-12-13,2024-12-15,4026.4,3,4,2,Visit -> Drug -> Laboratory -> Drug,53,Male,Private,General Practice,DOC_001
+SYNTH_000080,SYN_000080_E001,2024-01-02,2024-01-03,10118.9,4,7,1,Visit -> Radiology -> Drug -> Laboratory -> Drug -> Radiology -> Laboratory,64,Male,Other,ENT,DOC_005
+SYNTH_000080,SYN_000080_E002,2024-02-01,2024-02-01,6562.63,3,3,0,Visit -> Laboratory -> Radiology,64,Male,Other,Neurology,DOC_008
+SYNTH_000081,SYN_000081_E001,2024-08-17,2024-08-22,2845.45,3,3,5,Visit -> Drug -> Laboratory,58,Female,Social Security,Cardiology,DOC_009
+SYNTH_000081,SYN_000081_E002,2024-08-24,2024-09-03,4197.81,4,7,10,Visit -> Laboratory -> ClinicalService -> Laboratory -> ClinicalService -> Drug -> Drug,58,Female,Social Security,Internal Medicine,DOC_008
+SYNTH_000082,SYN_000082_E001,2024-03-16,2024-03-19,1907.82,3,7,3,Visit -> Drug -> Radiology -> Drug -> Drug -> Radiology -> Drug,29,Male,Health Insurance,Internal Medicine,DOC_006
+SYNTH_000082,SYN_000082_E002,2024-05-15,2024-05-16,2496.55,3,4,1,Visit -> Drug -> Laboratory -> Laboratory,29,Male,Health Insurance,Neurology,DOC_009
+SYNTH_000082,SYN_000082_E003,2024-06-05,2024-06-07,2887.37,3,4,2,Visit -> Drug -> Drug -> Laboratory,29,Male,Health Insurance,Internal Medicine,DOC_007
+SYNTH_000083,SYN_000083_E001,2024-03-06,2024-03-11,19629.63,5,5,5,Visit -> ClinicalService -> Radiology -> Drug -> Laboratory,41,Female,Health Insurance,Gynecology,DOC_003
+SYNTH_000083,SYN_000083_E002,2024-03-13,2024-03-16,2631.02,2,2,3,Visit -> Radiology,41,Female,Health Insurance,Neurology,DOC_006
+SYNTH_000084,SYN_000084_E001,2024-07-03,2024-07-06,7786.48,4,5,3,Visit -> Drug -> Laboratory -> Drug -> ClinicalService,46,Female,Organization,Orthopedics,DOC_009
+SYNTH_000084,SYN_000084_E002,2024-07-24,2024-07-25,16081.47,4,6,1,Visit -> Drug -> Drug -> ClinicalService -> Radiology -> Drug,46,Female,Organization,ENT,DOC_008
+SYNTH_000084,SYN_000084_E003,2024-09-07,2024-09-12,3361.09,3,5,5,Visit -> Drug -> Radiology -> Drug -> Drug,46,Female,Organization,Internal Medicine,DOC_004
+SYNTH_000085,SYN_000085_E001,2024-04-16,2024-04-18,6680.52,4,6,2,Visit -> Laboratory -> Laboratory -> ClinicalService -> ClinicalService -> Drug,57,Female,Health Insurance,General Practice,DOC_004
+SYNTH_000085,SYN_000085_E002,2024-05-07,2024-05-17,6788.32,3,3,10,Visit -> Radiology -> Laboratory,57,Female,Health Insurance,Orthopedics,DOC_003
+SYNTH_000085,SYN_000085_E003,2024-06-06,2024-06-07,2693.81,3,3,1,Visit -> ClinicalService -> Drug,57,Female,Health Insurance,Dermatology,DOC_001
+SYNTH_000085,SYN_000085_E004,2024-07-21,2024-07-26,15684.06,4,4,5,Visit -> Radiology -> Drug -> Laboratory,57,Female,Health Insurance,Cardiology,DOC_002
+SYNTH_000085,SYN_000085_E005,2024-08-20,2024-08-21,14494.0,3,3,1,Visit -> Drug -> Radiology,57,Female,Health Insurance,Dermatology,DOC_001
+SYNTH_000086,SYN_000086_E001,2024-01-22,2024-01-25,22946.2,5,7,3,Visit -> ClinicalService -> Drug -> Laboratory -> Laboratory -> Radiology -> Laboratory,85,Female,Private,Cardiology,DOC_001
+SYNTH_000087,SYN_000087_E001,2024-04-27,2024-04-28,9121.41,2,2,1,Visit -> Radiology,59,Female,Social Security,General Practice,DOC_009
+SYNTH_000087,SYN_000087_E002,2024-05-27,2024-05-29,4538.4,2,4,2,Visit -> Drug -> Drug -> Drug,59,Female,Social Security,Dermatology,DOC_003
+SYNTH_000088,SYN_000088_E001,2024-08-24,2024-08-24,6802.32,2,3,0,Visit -> Drug -> Drug,71,Male,Organization,ENT,DOC_001
+SYNTH_000089,SYN_000089_E001,2024-07-27,2024-07-28,20968.64,4,6,1,Visit -> Laboratory -> Drug -> Laboratory -> ClinicalService -> Drug,60,Female,Social Security,Orthopedics,DOC_004
+SYNTH_000089,SYN_000089_E002,2024-09-10,2024-09-12,31785.01,5,6,2,Visit -> ClinicalService -> Radiology -> Drug -> Laboratory -> Drug,60,Female,Social Security,Internal Medicine,DOC_008
+SYNTH_000089,SYN_000089_E003,2024-12-09,2024-12-10,3616.25,3,4,1,Visit -> Laboratory -> Laboratory -> Drug,60,Female,Social Security,ENT,DOC_005
+SYNTH_000090,SYN_000090_E001,2024-07-24,2024-07-29,2859.95,4,7,5,Visit -> Radiology -> Drug -> Radiology -> Laboratory -> Radiology -> Radiology,25,Female,Private,General Practice,DOC_002
+SYNTH_000091,SYN_000091_E001,2024-02-16,2024-02-17,7788.61,4,4,1,Visit -> Radiology -> ClinicalService -> Drug,57,Female,Health Insurance,Dermatology,DOC_005
+SYNTH_000091,SYN_000091_E002,2024-03-17,2024-03-22,7020.12,3,4,5,Visit -> Laboratory -> Laboratory -> Radiology,57,Female,Health Insurance,General Practice,DOC_001
+SYNTH_000091,SYN_000091_E003,2024-05-01,2024-05-08,3474.5,3,5,7,Visit -> Laboratory -> Drug -> Drug -> Laboratory,57,Female,Health Insurance,Neurology,DOC_010
+SYNTH_000091,SYN_000091_E004,2024-06-15,2024-06-18,2809.98,2,2,3,Visit -> Radiology,57,Female,Health Insurance,Internal Medicine,DOC_003
+SYNTH_000091,SYN_000091_E005,2024-07-15,2024-07-17,5738.74,4,7,2,Visit -> Radiology -> Laboratory -> Laboratory -> Drug -> Drug -> Drug,57,Female,Health Insurance,Dermatology,DOC_009
+SYNTH_000092,SYN_000092_E001,2024-01-10,2024-01-13,3463.66,3,4,3,Visit -> Radiology -> Radiology -> Drug,77,Male,Social Security,ENT,DOC_009
+SYNTH_000093,SYN_000093_E001,2024-06-07,2024-06-12,14001.96,4,5,5,Visit -> Drug -> Radiology -> Laboratory -> Drug,62,Male,Private,Orthopedics,DOC_010
+SYNTH_000093,SYN_000093_E002,2024-06-28,2024-06-30,1370.59,3,5,2,Visit -> ClinicalService -> Laboratory -> Laboratory -> Laboratory,62,Male,Private,ENT,DOC_001
+SYNTH_000093,SYN_000093_E003,2024-07-12,2024-07-14,5920.17,3,7,2,Visit -> Drug -> Drug -> Laboratory -> Drug -> Drug -> Laboratory,62,Male,Private,Gynecology,DOC_004
+SYNTH_000093,SYN_000093_E004,2024-07-26,2024-07-29,1381.86,2,2,3,Visit -> Radiology,62,Male,Private,Gynecology,DOC_010
+SYNTH_000093,SYN_000093_E005,2024-09-09,2024-09-12,4951.9,2,2,3,Visit -> ClinicalService,62,Male,Private,Gynecology,DOC_006
+SYNTH_000094,SYN_000094_E001,2024-01-01,2024-01-15,3776.23,3,4,14,Visit -> Drug -> Laboratory -> Laboratory,43,Male,Health Insurance,Neurology,DOC_006
+SYNTH_000094,SYN_000094_E002,2024-01-22,2024-01-23,12969.49,3,3,1,Visit -> Laboratory -> ClinicalService,43,Male,Health Insurance,Orthopedics,DOC_006
+SYNTH_000094,SYN_000094_E003,2024-02-12,2024-02-17,10243.77,4,4,5,Visit -> Drug -> Laboratory -> Radiology,43,Male,Health Insurance,Neurology,DOC_003
+SYNTH_000095,SYN_000095_E001,2024-04-22,2024-04-27,25819.72,4,7,5,Visit -> Drug -> Laboratory -> Radiology -> Radiology -> Laboratory -> Laboratory,39,Female,Social Security,Dermatology,DOC_001
+SYNTH_000096,SYN_000096_E001,2024-03-27,2024-03-29,6365.24,3,4,2,Visit -> Drug -> Drug -> Laboratory,18,Female,Social Security,General Practice,DOC_007
+SYNTH_000097,SYN_000097_E001,2024-06-28,2024-07-08,6027.32,2,2,10,Visit -> Laboratory,41,Male,Social Security,Gynecology,DOC_005
+SYNTH_000098,SYN_000098_E001,2024-04-30,2024-05-01,4463.72,2,2,1,Visit -> Laboratory,39,Male,Private,General Practice,DOC_002
+SYNTH_000098,SYN_000098_E002,2024-07-29,2024-08-05,20882.84,4,5,7,Visit -> Radiology -> Drug -> Laboratory -> Drug,39,Male,Private,Gynecology,DOC_009
+SYNTH_000098,SYN_000098_E003,2024-09-27,2024-09-28,35886.79,4,7,1,Visit -> Drug -> ClinicalService -> Laboratory -> Laboratory -> Laboratory -> Drug,39,Male,Private,Neurology,DOC_010
+SYNTH_000099,SYN_000099_E001,2024-06-20,2024-06-21,13115.81,4,4,1,Visit -> Laboratory -> Drug -> Radiology,71,Male,Organization,Orthopedics,DOC_002
+SYNTH_000099,SYN_000099_E002,2024-07-20,2024-07-25,8320.44,3,3,5,Visit -> ClinicalService -> Radiology,71,Male,Organization,Cardiology,DOC_009
+SYNTH_000099,SYN_000099_E003,2024-10-18,2024-10-28,5871.23,3,4,10,Visit -> Radiology -> Radiology -> Laboratory,71,Male,Organization,Cardiology,DOC_002
+SYNTH_000099,SYN_000099_E004,2024-10-25,2024-10-26,2132.68,2,3,1,Visit -> Laboratory -> Laboratory,71,Male,Organization,ENT,DOC_003
+SYNTH_000100,SYN_000100_E001,2024-04-24,2024-04-26,3889.75,2,5,2,Visit -> Laboratory -> Laboratory -> Laboratory -> Laboratory,59,Male,Health Insurance,Cardiology,DOC_007
+SYNTH_000100,SYN_000100_E002,2024-05-15,2024-05-16,5284.86,5,6,1,Visit -> ClinicalService -> Drug -> Laboratory -> Drug -> Radiology,59,Male,Health Insurance,Neurology,DOC_007
+SYNTH_000101,SYN_000101_E001,2024-01-15,2024-01-20,13793.54,5,7,5,Visit -> ClinicalService -> Drug -> Radiology -> Drug -> Laboratory -> ClinicalService,46,Female,Health Insurance,Gynecology,DOC_003
+SYNTH_000101,SYN_000101_E002,2024-03-15,2024-03-16,3233.7,2,2,1,Visit -> ClinicalService,46,Female,Health Insurance,Orthopedics,DOC_008
+SYNTH_000101,SYN_000101_E003,2024-06-13,2024-06-20,2475.86,2,3,7,Visit -> Drug -> Drug,46,Female,Health Insurance,Neurology,DOC_001
+SYNTH_000101,SYN_000101_E004,2024-09-11,2024-09-13,4180.92,3,4,2,Visit -> Laboratory -> Radiology -> Laboratory,46,Female,Health Insurance,Neurology,DOC_001
+SYNTH_000101,SYN_000101_E005,2024-11-10,2024-11-20,3712.44,2,2,10,Visit -> Laboratory,46,Female,Health Insurance,Orthopedics,DOC_004
+SYNTH_000102,SYN_000102_E001,2024-05-25,2024-05-28,2061.66,3,3,3,Visit -> Laboratory -> Radiology,57,Female,Social Security,Neurology,DOC_008
+SYNTH_000102,SYN_000102_E002,2024-06-08,2024-06-13,3121.27,4,7,5,Visit -> Radiology -> Drug -> Drug -> Laboratory -> Drug -> Drug,57,Female,Social Security,Internal Medicine,DOC_008
+SYNTH_000103,SYN_000103_E001,2024-08-01,2024-08-03,17592.51,5,5,2,Visit -> Laboratory -> Radiology -> ClinicalService -> Drug,43,Female,Private,Orthopedics,DOC_007
+SYNTH_000103,SYN_000103_E002,2024-08-31,2024-08-31,6552.47,4,6,0,Visit -> Radiology -> ClinicalService -> Drug -> Radiology -> ClinicalService,43,Female,Private,Dermatology,DOC_001
+SYNTH_000103,SYN_000103_E003,2024-10-15,2024-10-15,2015.48,2,2,0,Visit -> Drug,43,Female,Private,Orthopedics,DOC_006
+SYNTH_000103,SYN_000103_E004,2024-11-05,2024-11-08,2901.89,2,3,3,Visit -> Radiology -> Radiology,43,Female,Private,Cardiology,DOC_004
+SYNTH_000104,SYN_000104_E001,2024-07-16,2024-07-30,14975.23,3,5,14,Visit -> Laboratory -> Laboratory -> Radiology -> Radiology,22,Female,Other,ENT,DOC_001
+SYNTH_000104,SYN_000104_E002,2024-08-30,2024-08-31,4250.05,3,3,1,Visit -> Drug -> Radiology,22,Female,Other,Orthopedics,DOC_002
+SYNTH_000104,SYN_000104_E003,2024-10-29,2024-10-31,9481.25,3,6,2,Visit -> Drug -> Drug -> Laboratory -> Drug -> Laboratory,22,Female,Other,Internal Medicine,DOC_003
+SYNTH_000104,SYN_000104_E004,2024-12-13,2024-12-14,18301.24,5,7,1,Visit -> ClinicalService -> Radiology -> Laboratory -> Drug -> Radiology -> Radiology,22,Female,Other,Orthopedics,DOC_001
+SYNTH_000105,SYN_000105_E001,2024-06-06,2024-06-08,4601.0,4,4,2,Visit -> Laboratory -> Drug -> Radiology,62,Male,Organization,Gynecology,DOC_007
+SYNTH_000105,SYN_000105_E002,2024-06-20,2024-06-22,4827.01,4,5,2,Visit -> Drug -> Drug -> Radiology -> Laboratory,62,Male,Organization,Cardiology,DOC_004
+SYNTH_000106,SYN_000106_E001,2024-04-23,2024-04-26,8557.46,3,4,3,Visit -> Radiology -> Laboratory -> Laboratory,71,Male,Other,Dermatology,DOC_010
+SYNTH_000106,SYN_000106_E002,2024-05-23,2024-05-24,4671.27,4,7,1,Visit -> Laboratory -> ClinicalService -> Drug -> Laboratory -> Laboratory -> Drug,71,Male,Other,ENT,DOC_002
+SYNTH_000106,SYN_000106_E003,2024-06-13,2024-06-13,9873.23,3,4,0,Visit -> Laboratory -> Drug -> Drug,71,Male,Other,Neurology,DOC_002
+SYNTH_000106,SYN_000106_E004,2024-07-13,2024-07-14,24347.3,3,4,1,Visit -> ClinicalService -> Drug -> Drug,71,Male,Other,Cardiology,DOC_003
+SYNTH_000107,SYN_000107_E001,2024-01-22,2024-02-01,6563.91,2,4,10,Visit -> Laboratory -> Laboratory -> Laboratory,18,Female,Other,Neurology,DOC_010
+SYNTH_000107,SYN_000107_E002,2024-02-12,2024-02-17,4206.28,4,5,5,Visit -> ClinicalService -> Drug -> ClinicalService -> Laboratory,18,Female,Other,Internal Medicine,DOC_007
+SYNTH_000107,SYN_000107_E003,2024-03-28,2024-03-28,3841.66,3,3,0,Visit -> Drug -> ClinicalService,18,Female,Other,General Practice,DOC_005
+SYNTH_000107,SYN_000107_E004,2024-04-04,2024-04-04,2122.39,2,2,0,Visit -> Radiology,18,Female,Other,Internal Medicine,DOC_009
+SYNTH_000108,SYN_000108_E001,2024-05-06,2024-05-09,1460.8,3,3,3,Visit -> Laboratory -> ClinicalService,30,Female,Organization,Orthopedics,DOC_006
+SYNTH_000108,SYN_000108_E002,2024-05-13,2024-05-14,10768.22,4,5,1,Visit -> ClinicalService -> Drug -> Radiology -> Drug,30,Female,Organization,Gynecology,DOC_003
+SYNTH_000109,SYN_000109_E001,2024-08-02,2024-08-12,2834.05,2,2,10,Visit -> Drug,58,Female,Other,Gynecology,DOC_002
+SYNTH_000109,SYN_000109_E002,2024-08-16,2024-08-26,2339.71,2,2,10,Visit -> Drug,58,Female,Other,ENT,DOC_006
+SYNTH_000109,SYN_000109_E003,2024-08-23,2024-08-25,2334.32,2,2,2,Visit -> Laboratory,58,Female,Other,Dermatology,DOC_006
+SYNTH_000109,SYN_000109_E004,2024-09-06,2024-09-09,3622.69,4,4,3,Visit -> Radiology -> Drug -> ClinicalService,58,Female,Other,Cardiology,DOC_003
+SYNTH_000110,SYN_000110_E001,2024-02-12,2024-02-12,2948.92,3,3,0,Visit -> Drug -> Laboratory,36,Female,Private,Orthopedics,DOC_009
+SYNTH_000110,SYN_000110_E002,2024-03-13,2024-03-15,9401.88,2,3,2,Visit -> Radiology -> Radiology,36,Female,Private,Gynecology,DOC_002
+SYNTH_000110,SYN_000110_E003,2024-04-12,2024-04-15,998.16,4,5,3,Visit -> Drug -> ClinicalService -> Drug -> Radiology,36,Female,Private,Orthopedics,DOC_009
+SYNTH_000110,SYN_000110_E004,2024-04-19,2024-04-26,9839.29,3,5,7,Visit -> Drug -> Drug -> Radiology -> Drug,36,Female,Private,Neurology,DOC_008
+SYNTH_000111,SYN_000111_E001,2024-08-20,2024-08-23,10792.69,4,5,3,Visit -> Drug -> Laboratory -> Radiology -> Laboratory,52,Male,Organization,Internal Medicine,DOC_001
+SYNTH_000111,SYN_000111_E002,2024-09-10,2024-09-24,7289.08,4,7,14,Visit -> Laboratory -> Laboratory -> Radiology -> Drug -> Drug -> Drug,52,Male,Organization,Cardiology,DOC_009
+SYNTH_000111,SYN_000111_E003,2024-09-17,2024-09-22,2941.62,4,5,5,Visit -> Laboratory -> ClinicalService -> Radiology -> Laboratory,52,Male,Organization,Cardiology,DOC_002
+SYNTH_000111,SYN_000111_E004,2024-11-01,2024-11-03,24799.91,5,7,2,Visit -> Drug -> ClinicalService -> Drug -> Laboratory -> Radiology -> Laboratory,52,Male,Organization,Dermatology,DOC_007
+SYNTH_000112,SYN_000112_E001,2024-07-15,2024-07-17,2716.14,3,3,2,Visit -> ClinicalService -> Laboratory,73,Male,Health Insurance,Neurology,DOC_002
+SYNTH_000112,SYN_000112_E002,2024-08-29,2024-09-03,2208.0,3,3,5,Visit -> ClinicalService -> Radiology,73,Male,Health Insurance,General Practice,DOC_005
+SYNTH_000113,SYN_000113_E001,2024-05-29,2024-06-03,7408.13,3,3,5,Visit -> Drug -> Radiology,36,Female,Organization,ENT,DOC_003
+SYNTH_000114,SYN_000114_E001,2024-05-13,2024-05-15,5697.02,2,4,2,Visit -> ClinicalService -> ClinicalService -> ClinicalService,34,Female,Health Insurance,ENT,DOC_010
+SYNTH_000114,SYN_000114_E002,2024-06-12,2024-06-13,3121.0,3,3,1,Visit -> Drug -> ClinicalService,34,Female,Health Insurance,ENT,DOC_007
+SYNTH_000114,SYN_000114_E003,2024-07-27,2024-07-28,3839.21,4,5,1,Visit -> Laboratory -> Drug -> ClinicalService -> Drug,34,Female,Health Insurance,General Practice,DOC_007
+SYNTH_000114,SYN_000114_E004,2024-08-26,2024-08-27,10717.91,3,5,1,Visit -> Drug -> Radiology -> Drug -> Drug,34,Female,Health Insurance,Cardiology,DOC_005
+SYNTH_000115,SYN_000115_E001,2024-03-08,2024-03-18,3504.16,2,2,10,Visit -> Radiology,70,Female,Social Security,Orthopedics,DOC_003
+SYNTH_000116,SYN_000116_E001,2024-05-03,2024-05-03,17189.74,5,7,0,Visit -> Drug -> Radiology -> Laboratory -> Drug -> Drug -> ClinicalService,32,Male,Organization,ENT,DOC_006
+SYNTH_000117,SYN_000117_E001,2024-03-13,2024-03-15,7646.46,2,2,2,Visit -> Laboratory,18,Female,Private,Internal Medicine,DOC_004
+SYNTH_000117,SYN_000117_E002,2024-04-03,2024-04-06,6426.52,4,7,3,Visit -> ClinicalService -> Drug -> ClinicalService -> ClinicalService -> Drug -> Radiology,18,Female,Private,General Practice,DOC_001
+SYNTH_000117,SYN_000117_E003,2024-04-17,2024-05-01,3662.91,2,2,14,Visit -> Laboratory,18,Female,Private,General Practice,DOC_006
+SYNTH_000117,SYN_000117_E004,2024-07-16,2024-07-19,10512.65,4,4,3,Visit -> ClinicalService -> Laboratory -> Drug,18,Female,Private,Neurology,DOC_007
+SYNTH_000118,SYN_000118_E001,2024-01-15,2024-01-20,9502.62,4,7,5,Visit -> ClinicalService -> Drug -> Drug -> Drug -> Drug -> Laboratory,21,Female,Social Security,Gynecology,DOC_001
+SYNTH_000119,SYN_000119_E001,2024-02-07,2024-02-09,5699.8,3,5,2,Visit -> ClinicalService -> ClinicalService -> Laboratory -> ClinicalService,57,Male,Social Security,Orthopedics,DOC_010
+SYNTH_000119,SYN_000119_E002,2024-02-14,2024-02-19,7910.16,2,2,5,Visit -> Laboratory,57,Male,Social Security,ENT,DOC_010
+SYNTH_000119,SYN_000119_E003,2024-02-28,2024-03-01,6137.83,2,3,2,Visit -> Drug -> Drug,57,Male,Social Security,ENT,DOC_008
+SYNTH_000120,SYN_000120_E001,2024-02-04,2024-02-04,3956.88,3,7,0,Visit -> Drug -> Laboratory -> Laboratory -> Laboratory -> Drug -> Laboratory,42,Female,Organization,ENT,DOC_009
+SYNTH_000121,SYN_000121_E001,2024-03-28,2024-03-31,12095.31,4,5,3,Visit -> Laboratory -> ClinicalService -> Drug -> Drug,54,Male,Social Security,Dermatology,DOC_004
+SYNTH_000121,SYN_000121_E002,2024-05-27,2024-05-29,6950.66,4,4,2,Visit -> ClinicalService -> Laboratory -> Drug,54,Male,Social Security,Gynecology,DOC_004
+SYNTH_000122,SYN_000122_E001,2024-02-17,2024-02-17,3240.32,2,2,0,Visit -> Radiology,18,Male,Health Insurance,General Practice,DOC_001
+SYNTH_000122,SYN_000122_E002,2024-03-02,2024-03-07,7817.85,5,7,5,Visit -> ClinicalService -> Drug -> ClinicalService -> Laboratory -> Laboratory -> Radiology,18,Male,Health Insurance,Neurology,DOC_002
+SYNTH_000123,SYN_000123_E001,2024-01-26,2024-01-29,4832.07,2,4,3,Visit -> Drug -> Drug -> Drug,39,Male,Social Security,Dermatology,DOC_007
+SYNTH_000123,SYN_000123_E002,2024-02-02,2024-02-04,15423.49,3,4,2,Visit -> Laboratory -> Radiology -> Laboratory,39,Male,Social Security,General Practice,DOC_002
+SYNTH_000123,SYN_000123_E003,2024-04-02,2024-04-02,3128.31,4,7,0,Visit -> Drug -> ClinicalService -> Drug -> Drug -> ClinicalService -> Radiology,39,Male,Social Security,Gynecology,DOC_005
+SYNTH_000123,SYN_000123_E004,2024-05-17,2024-05-27,7265.76,2,2,10,Visit -> ClinicalService,39,Male,Social Security,Neurology,DOC_004
+SYNTH_000123,SYN_000123_E005,2024-06-07,2024-06-09,5407.28,2,3,2,Visit -> Drug -> Drug,39,Male,Social Security,Neurology,DOC_001
+SYNTH_000124,SYN_000124_E001,2024-05-28,2024-05-29,24339.04,5,7,1,Visit -> Radiology -> Laboratory -> Drug -> ClinicalService -> Drug -> Drug,51,Male,Private,Internal Medicine,DOC_009
+SYNTH_000124,SYN_000124_E002,2024-06-27,2024-06-30,6040.37,4,7,3,Visit -> Drug -> Laboratory -> Drug -> Radiology -> Drug -> Drug,51,Male,Private,Neurology,DOC_006
+SYNTH_000124,SYN_000124_E003,2024-08-11,2024-08-11,5785.39,2,3,0,Visit -> Drug -> Drug,51,Male,Private,Gynecology,DOC_008
+SYNTH_000125,SYN_000125_E001,2024-04-27,2024-04-30,2064.39,2,3,3,Visit -> Drug -> Drug,31,Female,Health Insurance,Orthopedics,DOC_007
+SYNTH_000125,SYN_000125_E002,2024-05-18,2024-05-25,9324.04,4,6,7,Visit -> Laboratory -> Drug -> Laboratory -> ClinicalService -> Drug,31,Female,Health Insurance,Dermatology,DOC_006
+SYNTH_000125,SYN_000125_E003,2024-06-17,2024-06-27,10168.97,4,5,10,Visit -> Laboratory -> ClinicalService -> Drug -> ClinicalService,31,Female,Health Insurance,Orthopedics,DOC_001
+SYNTH_000125,SYN_000125_E004,2024-08-01,2024-08-06,11421.65,4,5,5,Visit -> ClinicalService -> Laboratory -> Drug -> Drug,31,Female,Health Insurance,Gynecology,DOC_010
+SYNTH_000125,SYN_000125_E005,2024-09-30,2024-10-10,7887.89,4,7,10,Visit -> Drug -> Radiology -> Laboratory -> Drug -> Radiology -> Laboratory,31,Female,Health Insurance,ENT,DOC_010
+SYNTH_000126,SYN_000126_E001,2024-05-03,2024-05-06,5326.52,3,6,3,Visit -> Drug -> Laboratory -> Drug -> Drug -> Drug,40,Female,Social Security,Dermatology,DOC_002
+SYNTH_000126,SYN_000126_E002,2024-07-02,2024-07-09,12450.71,4,7,7,Visit -> Drug -> Radiology -> Laboratory -> Drug -> Laboratory -> Drug,40,Female,Social Security,Dermatology,DOC_003
+SYNTH_000126,SYN_000126_E003,2024-08-01,2024-08-04,6283.12,3,7,3,Visit -> Drug -> Drug -> Laboratory -> Drug -> Drug -> Drug,40,Female,Social Security,Internal Medicine,DOC_006
+SYNTH_000126,SYN_000126_E004,2024-08-08,2024-08-13,4897.69,4,4,5,Visit -> ClinicalService -> Drug -> Radiology,40,Female,Social Security,Gynecology,DOC_009
+SYNTH_000126,SYN_000126_E005,2024-09-22,2024-10-02,9388.11,4,5,10,Visit -> Drug -> ClinicalService -> Radiology -> ClinicalService,40,Female,Social Security,ENT,DOC_006
+SYNTH_000127,SYN_000127_E001,2024-01-02,2024-01-04,4998.24,5,6,2,Visit -> Radiology -> Laboratory -> Drug -> Drug -> ClinicalService,78,Female,Private,Neurology,DOC_003
+SYNTH_000127,SYN_000127_E002,2024-02-01,2024-02-04,5840.8,4,5,3,Visit -> Laboratory -> Radiology -> ClinicalService -> ClinicalService,78,Female,Private,ENT,DOC_004
+SYNTH_000128,SYN_000128_E001,2024-02-18,2024-02-25,2174.71,4,6,7,Visit -> Radiology -> Drug -> Laboratory -> Laboratory -> Drug,18,Male,Organization,Dermatology,DOC_003
+SYNTH_000128,SYN_000128_E002,2024-04-18,2024-04-21,12174.3,4,6,3,Visit -> Laboratory -> ClinicalService -> Laboratory -> Laboratory -> Drug,18,Male,Organization,Internal Medicine,DOC_008
+SYNTH_000128,SYN_000128_E003,2024-05-18,2024-06-01,6645.65,4,6,14,Visit -> Radiology -> Drug -> ClinicalService -> Radiology -> ClinicalService,18,Male,Organization,ENT,DOC_005
+SYNTH_000129,SYN_000129_E001,2024-07-17,2024-07-19,13043.46,4,5,2,Visit -> ClinicalService -> Drug -> Laboratory -> Laboratory,21,Male,Health Insurance,ENT,DOC_006
+SYNTH_000130,SYN_000130_E001,2024-08-27,2024-08-28,3763.55,3,4,1,Visit -> Drug -> Radiology -> Radiology,37,Male,Social Security,General Practice,DOC_001
+SYNTH_000130,SYN_000130_E002,2024-09-17,2024-10-01,12877.61,4,6,14,Visit -> ClinicalService -> Drug -> Drug -> Laboratory -> Laboratory,37,Male,Social Security,Cardiology,DOC_009
+SYNTH_000130,SYN_000130_E003,2024-11-16,2024-11-18,8108.08,4,5,2,Visit -> Drug -> Laboratory -> Drug -> Radiology,37,Male,Social Security,Orthopedics,DOC_007
+SYNTH_000131,SYN_000131_E001,2024-01-19,2024-01-26,14165.57,3,3,7,Visit -> ClinicalService -> Radiology,40,Male,Health Insurance,Gynecology,DOC_009
+SYNTH_000131,SYN_000131_E002,2024-02-09,2024-02-14,16306.36,4,7,5,Visit -> Drug -> Laboratory -> Drug -> Laboratory -> Radiology -> Drug,40,Male,Health Insurance,Internal Medicine,DOC_008
+SYNTH_000131,SYN_000131_E003,2024-04-09,2024-04-11,19002.93,3,4,2,Visit -> Radiology -> ClinicalService -> Radiology,40,Male,Health Insurance,Internal Medicine,DOC_007
+SYNTH_000131,SYN_000131_E004,2024-04-30,2024-04-30,3923.29,2,2,0,Visit -> Radiology,40,Male,Health Insurance,Neurology,DOC_009
+SYNTH_000132,SYN_000132_E001,2024-03-11,2024-03-21,3895.43,2,2,10,Visit -> Drug,51,Female,Health Insurance,Cardiology,DOC_002
+SYNTH_000132,SYN_000132_E002,2024-04-01,2024-04-03,2136.79,3,3,2,Visit -> Drug -> Radiology,51,Female,Health Insurance,Orthopedics,DOC_007
+SYNTH_000132,SYN_000132_E003,2024-05-16,2024-05-19,5043.53,3,4,3,Visit -> Drug -> Drug -> ClinicalService,51,Female,Health Insurance,Orthopedics,DOC_007
+SYNTH_000132,SYN_000132_E004,2024-07-15,2024-07-15,15955.7,5,6,0,Visit -> Laboratory -> ClinicalService -> Radiology -> Laboratory -> Drug,51,Female,Health Insurance,Cardiology,DOC_005
+SYNTH_000133,SYN_000133_E001,2024-05-19,2024-05-20,8685.45,3,3,1,Visit -> Radiology -> Laboratory,55,Female,Social Security,ENT,DOC_001
+SYNTH_000133,SYN_000133_E002,2024-06-02,2024-06-03,11032.15,4,6,1,Visit -> Laboratory -> Laboratory -> Drug -> ClinicalService -> Drug,55,Female,Social Security,Neurology,DOC_001
+SYNTH_000133,SYN_000133_E003,2024-06-23,2024-06-25,3525.13,2,2,2,Visit -> Drug,55,Female,Social Security,ENT,DOC_009
+SYNTH_000134,SYN_000134_E001,2024-03-01,2024-03-02,5021.5,3,3,1,Visit -> Laboratory -> Drug,18,Male,Private,Dermatology,DOC_004
+SYNTH_000134,SYN_000134_E002,2024-03-22,2024-03-23,10290.81,5,6,1,Visit -> Drug -> Radiology -> ClinicalService -> Drug -> Laboratory,18,Male,Private,ENT,DOC_007
+SYNTH_000134,SYN_000134_E003,2024-04-05,2024-04-07,2679.2,3,4,2,Visit -> Laboratory -> Drug -> Drug,18,Male,Private,Cardiology,DOC_010
+SYNTH_000134,SYN_000134_E004,2024-05-05,2024-05-10,6766.34,3,3,5,Visit -> Drug -> Laboratory,18,Male,Private,Dermatology,DOC_001
+SYNTH_000134,SYN_000134_E005,2024-05-12,2024-05-19,1416.2,2,2,7,Visit -> Laboratory,18,Male,Private,Orthopedics,DOC_005
+SYNTH_000135,SYN_000135_E001,2024-06-10,2024-06-15,5519.19,4,6,5,Visit -> Laboratory -> Radiology -> ClinicalService -> Radiology -> ClinicalService,66,Male,Social Security,Cardiology,DOC_003
+SYNTH_000136,SYN_000136_E001,2024-05-24,2024-05-29,2617.59,4,5,5,Visit -> Laboratory -> ClinicalService -> Laboratory -> Radiology,56,Female,Other,Neurology,DOC_002
+SYNTH_000136,SYN_000136_E002,2024-07-08,2024-07-22,8556.78,4,5,14,Visit -> ClinicalService -> Laboratory -> Laboratory -> Drug,56,Female,Other,General Practice,DOC_008
+SYNTH_000136,SYN_000136_E003,2024-09-06,2024-09-09,16698.86,3,4,3,Visit -> Drug -> Drug -> ClinicalService,56,Female,Other,Gynecology,DOC_008
+SYNTH_000136,SYN_000136_E004,2024-09-27,2024-09-29,2625.45,4,6,2,Visit -> Drug -> Drug -> Laboratory -> Laboratory -> Radiology,56,Female,Other,ENT,DOC_009
+SYNTH_000136,SYN_000136_E005,2024-10-18,2024-10-23,6235.15,3,7,5,Visit -> Drug -> ClinicalService -> Drug -> Drug -> Drug -> Drug,56,Female,Other,Cardiology,DOC_001
+SYNTH_000137,SYN_000137_E001,2024-03-31,2024-04-05,1846.96,4,6,5,Visit -> Radiology -> Radiology -> Laboratory -> Radiology -> Drug,55,Female,Other,Gynecology,DOC_005
+SYNTH_000137,SYN_000137_E002,2024-05-30,2024-05-31,2859.92,3,4,1,Visit -> Laboratory -> ClinicalService -> ClinicalService,55,Female,Other,Cardiology,DOC_010
+SYNTH_000137,SYN_000137_E003,2024-06-13,2024-06-16,3717.51,2,3,3,Visit -> Drug -> Drug,55,Female,Other,Internal Medicine,DOC_007
+SYNTH_000137,SYN_000137_E004,2024-08-12,2024-08-13,2550.67,2,2,1,Visit -> Drug,55,Female,Other,Dermatology,DOC_005
+SYNTH_000138,SYN_000138_E001,2024-06-12,2024-06-12,11820.81,4,5,0,Visit -> Radiology -> Laboratory -> Drug -> Laboratory,53,Female,Social Security,ENT,DOC_007
+SYNTH_000138,SYN_000138_E002,2024-07-12,2024-07-17,5249.51,2,3,5,Visit -> Radiology -> Radiology,53,Female,Social Security,Gynecology,DOC_001
+SYNTH_000138,SYN_000138_E003,2024-07-19,2024-07-22,12641.39,3,4,3,Visit -> Drug -> Drug -> ClinicalService,53,Female,Social Security,Orthopedics,DOC_008
+SYNTH_000139,SYN_000139_E001,2024-03-12,2024-03-15,5766.44,4,6,3,Visit -> Drug -> Radiology -> Drug -> Radiology -> Laboratory,38,Male,Health Insurance,General Practice,DOC_005
+SYNTH_000139,SYN_000139_E002,2024-04-26,2024-04-27,7252.98,3,3,1,Visit -> Drug -> Laboratory,38,Male,Health Insurance,Dermatology,DOC_006
+SYNTH_000140,SYN_000140_E001,2024-02-05,2024-02-15,4720.33,4,6,10,Visit -> Drug -> Laboratory -> Drug -> Radiology -> Drug,66,Female,Private,Neurology,DOC_007
+SYNTH_000140,SYN_000140_E002,2024-02-26,2024-02-28,9479.95,4,6,2,Visit -> Laboratory -> Drug -> Drug -> Drug -> ClinicalService,66,Female,Private,Internal Medicine,DOC_007
+SYNTH_000141,SYN_000141_E001,2024-06-24,2024-07-08,3595.66,4,4,14,Visit -> Laboratory -> ClinicalService -> Drug,36,Female,Health Insurance,Orthopedics,DOC_010
+SYNTH_000141,SYN_000141_E002,2024-07-15,2024-07-18,7066.67,2,2,3,Visit -> Radiology,36,Female,Health Insurance,Dermatology,DOC_006
+SYNTH_000142,SYN_000142_E001,2024-08-01,2024-08-06,5990.02,3,3,5,Visit -> Drug -> Radiology,18,Male,Health Insurance,Internal Medicine,DOC_006
+SYNTH_000142,SYN_000142_E002,2024-09-30,2024-10-02,6581.39,4,5,2,Visit -> Radiology -> Laboratory -> Laboratory -> ClinicalService,18,Male,Health Insurance,Neurology,DOC_009
+SYNTH_000143,SYN_000143_E001,2024-06-10,2024-06-11,14568.1,3,4,1,Visit -> ClinicalService -> Drug -> ClinicalService,40,Male,Health Insurance,ENT,DOC_005
+SYNTH_000143,SYN_000143_E002,2024-08-09,2024-08-12,1736.44,2,2,3,Visit -> ClinicalService,40,Male,Health Insurance,Internal Medicine,DOC_001
+SYNTH_000144,SYN_000144_E001,2024-04-19,2024-04-20,2217.97,3,5,1,Visit -> Laboratory -> Drug -> Drug -> Drug,50,Male,Social Security,Cardiology,DOC_003
+SYNTH_000144,SYN_000144_E002,2024-07-18,2024-07-23,15874.34,4,6,5,Visit -> ClinicalService -> Drug -> Laboratory -> ClinicalService -> ClinicalService,50,Male,Social Security,Cardiology,DOC_003
+SYNTH_000144,SYN_000144_E003,2024-10-16,2024-10-18,3872.18,4,7,2,Visit -> Drug -> Laboratory -> Drug -> Drug -> Radiology -> Drug,50,Male,Social Security,General Practice,DOC_002
+SYNTH_000145,SYN_000145_E001,2024-05-20,2024-05-21,2383.88,2,5,1,Visit -> Drug -> Drug -> Drug -> Drug,24,Female,Other,Internal Medicine,DOC_010
+SYNTH_000146,SYN_000146_E001,2024-02-21,2024-03-06,15465.17,3,4,14,Visit -> Drug -> Drug -> Laboratory,40,Male,Health Insurance,Internal Medicine,DOC_001
+SYNTH_000146,SYN_000146_E002,2024-03-22,2024-03-27,2906.92,3,7,5,Visit -> Drug -> Drug -> Drug -> Laboratory -> Drug -> Drug,40,Male,Health Insurance,Dermatology,DOC_001
+SYNTH_000146,SYN_000146_E003,2024-04-12,2024-04-15,6903.24,3,5,3,Visit -> Drug -> Laboratory -> Drug -> Drug,40,Male,Health Insurance,Cardiology,DOC_004
+SYNTH_000147,SYN_000147_E001,2024-03-03,2024-03-08,1753.98,3,3,5,Visit -> Laboratory -> Drug,50,Male,Health Insurance,Orthopedics,DOC_007
+SYNTH_000148,SYN_000148_E001,2024-03-03,2024-03-05,8164.43,4,5,2,Visit -> Radiology -> Laboratory -> ClinicalService -> Laboratory,25,Female,Private,Gynecology,DOC_005
+SYNTH_000148,SYN_000148_E002,2024-03-17,2024-03-22,6015.75,3,5,5,Visit -> Radiology -> Laboratory -> Radiology -> Laboratory,25,Female,Private,General Practice,DOC_004
+SYNTH_000148,SYN_000148_E003,2024-04-16,2024-04-18,1031.8,2,3,2,Visit -> Drug -> Drug,25,Female,Private,Cardiology,DOC_006
+SYNTH_000148,SYN_000148_E004,2024-05-31,2024-06-10,4775.99,3,4,10,Visit -> Radiology -> Radiology -> Drug,25,Female,Private,Internal Medicine,DOC_006
+SYNTH_000148,SYN_000148_E005,2024-08-29,2024-09-03,5376.67,4,6,5,Visit -> Drug -> Laboratory -> Drug -> Radiology -> Drug,25,Female,Private,Neurology,DOC_008
+SYNTH_000149,SYN_000149_E001,2024-09-01,2024-09-04,1511.43,2,2,3,Visit -> Laboratory,50,Female,Health Insurance,Internal Medicine,DOC_001
+SYNTH_000149,SYN_000149_E002,2024-10-01,2024-10-11,5237.87,4,4,10,Visit -> Radiology -> Drug -> Laboratory,50,Female,Health Insurance,Internal Medicine,DOC_004
+SYNTH_000149,SYN_000149_E003,2024-10-08,2024-10-15,2720.16,3,3,7,Visit -> Drug -> Radiology,50,Female,Health Insurance,Cardiology,DOC_007
+SYNTH_000149,SYN_000149_E004,2024-10-29,2024-11-08,4375.26,2,2,10,Visit -> Radiology,50,Female,Health Insurance,Internal Medicine,DOC_006
+SYNTH_000150,SYN_000150_E001,2024-08-10,2024-08-13,11427.7,5,7,3,Visit -> Radiology -> ClinicalService -> Laboratory -> Drug -> Radiology -> Radiology,29,Male,Social Security,Dermatology,DOC_001
+SYNTH_000150,SYN_000150_E002,2024-09-24,2024-10-08,7712.11,5,7,14,Visit -> Drug -> Laboratory -> ClinicalService -> Radiology -> ClinicalService -> Laboratory,29,Male,Social Security,Dermatology,DOC_004
+SYNTH_000151,SYN_000151_E001,2024-06-05,2024-06-08,1908.25,3,5,3,Visit -> Laboratory -> Laboratory -> Laboratory -> Drug,55,Male,Other,Dermatology,DOC_008
+SYNTH_000151,SYN_000151_E002,2024-08-04,2024-08-06,6984.29,2,2,2,Visit -> Drug,55,Male,Other,Dermatology,DOC_004
+SYNTH_000151,SYN_000151_E003,2024-08-11,2024-08-13,8604.69,3,6,2,Visit -> Laboratory -> Laboratory -> Drug -> Laboratory -> Laboratory,55,Male,Other,Orthopedics,DOC_001
+SYNTH_000151,SYN_000151_E004,2024-11-09,2024-11-12,1618.37,4,6,3,Visit -> Drug -> Laboratory -> Drug -> ClinicalService -> Laboratory,55,Male,Other,General Practice,DOC_001
+SYNTH_000152,SYN_000152_E001,2024-04-22,2024-04-27,4386.34,3,3,5,Visit -> ClinicalService -> Drug,42,Female,Health Insurance,Gynecology,DOC_010
+SYNTH_000152,SYN_000152_E002,2024-07-21,2024-07-23,6489.88,4,5,2,Visit -> ClinicalService -> Radiology -> Drug -> Radiology,42,Female,Health Insurance,Dermatology,DOC_010
+SYNTH_000152,SYN_000152_E003,2024-07-28,2024-08-02,8067.48,3,3,5,Visit -> Laboratory -> Drug,42,Female,Health Insurance,Gynecology,DOC_002
+SYNTH_000152,SYN_000152_E004,2024-08-18,2024-08-19,6730.41,3,5,1,Visit -> Drug -> ClinicalService -> Drug -> Drug,42,Female,Health Insurance,General Practice,DOC_010
+SYNTH_000153,SYN_000153_E001,2024-02-26,2024-02-27,2239.08,2,2,1,Visit -> Laboratory,67,Female,Private,Internal Medicine,DOC_007
+SYNTH_000153,SYN_000153_E002,2024-03-27,2024-04-01,12380.42,4,5,5,Visit -> Drug -> Radiology -> Drug -> ClinicalService,67,Female,Private,Cardiology,DOC_002
+SYNTH_000153,SYN_000153_E003,2024-04-17,2024-04-24,6866.22,2,2,7,Visit -> Drug,67,Female,Private,Orthopedics,DOC_005
+SYNTH_000153,SYN_000153_E004,2024-05-17,2024-05-19,69559.96,3,6,2,Visit -> Drug -> Radiology -> Radiology -> Drug -> Drug,67,Female,Private,Neurology,DOC_003
+SYNTH_000154,SYN_000154_E001,2024-04-26,2024-05-03,3056.12,3,5,7,Visit -> Drug -> ClinicalService -> Drug -> Drug,38,Male,Private,Neurology,DOC_006
+SYNTH_000155,SYN_000155_E001,2024-07-26,2024-08-02,3769.89,4,7,7,Visit -> Laboratory -> ClinicalService -> Drug -> ClinicalService -> ClinicalService -> Drug,34,Male,Health Insurance,Dermatology,DOC_001
+SYNTH_000156,SYN_000156_E001,2024-07-13,2024-07-13,7770.83,5,5,0,Visit -> Laboratory -> Radiology -> ClinicalService -> Drug,54,Female,Private,General Practice,DOC_008
+SYNTH_000156,SYN_000156_E002,2024-08-03,2024-08-04,4983.92,4,6,1,Visit -> Drug -> Laboratory -> Laboratory -> Drug -> ClinicalService,54,Female,Private,Gynecology,DOC_006
+SYNTH_000156,SYN_000156_E003,2024-11-01,2024-11-04,2564.02,2,3,3,Visit -> Drug -> Drug,54,Female,Private,Gynecology,DOC_007
+SYNTH_000157,SYN_000157_E001,2024-05-10,2024-05-13,17813.91,5,6,3,Visit -> Radiology -> ClinicalService -> Laboratory -> Drug -> Drug,18,Female,Health Insurance,Cardiology,DOC_007
+SYNTH_000157,SYN_000157_E002,2024-06-24,2024-06-27,15744.96,3,5,3,Visit -> Radiology -> Drug -> Radiology -> Drug,18,Female,Health Insurance,Neurology,DOC_001
+SYNTH_000157,SYN_000157_E003,2024-08-23,2024-08-26,9772.23,3,5,3,Visit -> Laboratory -> Laboratory -> Drug -> Drug,18,Female,Health Insurance,ENT,DOC_004
+SYNTH_000157,SYN_000157_E004,2024-10-22,2024-10-22,10912.73,5,7,0,Visit -> Drug -> ClinicalService -> Drug -> Laboratory -> Radiology -> Drug,18,Female,Health Insurance,ENT,DOC_003
+SYNTH_000157,SYN_000157_E005,2024-12-21,2024-12-22,1874.98,2,2,1,Visit -> Laboratory,18,Female,Health Insurance,Gynecology,DOC_002
+SYNTH_000158,SYN_000158_E001,2024-05-07,2024-05-12,5350.64,4,5,5,Visit -> Drug -> Radiology -> Drug -> ClinicalService,48,Female,Private,Neurology,DOC_009
+SYNTH_000158,SYN_000158_E002,2024-06-06,2024-06-06,14375.26,5,6,0,Visit -> Drug -> Laboratory -> Radiology -> ClinicalService -> Radiology,48,Female,Private,Internal Medicine,DOC_007
+SYNTH_000158,SYN_000158_E003,2024-06-20,2024-06-23,1479.51,2,2,3,Visit -> Drug,48,Female,Private,Dermatology,DOC_005
+SYNTH_000158,SYN_000158_E004,2024-07-04,2024-07-05,12048.03,4,6,1,Visit -> Drug -> ClinicalService -> Drug -> Laboratory -> Drug,48,Female,Private,Cardiology,DOC_005
+SYNTH_000159,SYN_000159_E001,2024-07-20,2024-07-22,5186.19,4,5,2,Visit -> Drug -> Radiology -> Laboratory -> Radiology,59,Male,Social Security,Dermatology,DOC_002
+SYNTH_000159,SYN_000159_E002,2024-09-18,2024-09-28,8426.81,4,7,10,Visit -> Radiology -> Radiology -> Drug -> Drug -> Laboratory -> Laboratory,59,Male,Social Security,Cardiology,DOC_002
+SYNTH_000160,SYN_000160_E001,2024-01-13,2024-01-16,6909.68,3,3,3,Visit -> Drug -> Radiology,49,Male,Health Insurance,Dermatology,DOC_008
+SYNTH_000160,SYN_000160_E002,2024-02-12,2024-02-13,3180.93,3,3,1,Visit -> Drug -> Laboratory,49,Male,Health Insurance,Internal Medicine,DOC_003
+SYNTH_000160,SYN_000160_E003,2024-02-26,2024-02-28,5885.52,2,2,2,Visit -> Drug,49,Male,Health Insurance,Orthopedics,DOC_002
+SYNTH_000160,SYN_000160_E004,2024-03-18,2024-03-20,7724.51,4,5,2,Visit -> Laboratory -> Radiology -> Drug -> Drug,49,Male,Health Insurance,Internal Medicine,DOC_008
+SYNTH_000161,SYN_000161_E001,2024-08-09,2024-08-16,1303.67,3,4,7,Visit -> Laboratory -> Laboratory -> Drug,45,Male,Social Security,Neurology,DOC_007
+SYNTH_000161,SYN_000161_E002,2024-09-23,2024-09-23,3476.75,3,3,0,Visit -> Drug -> Laboratory,45,Male,Social Security,Cardiology,DOC_006
+SYNTH_000161,SYN_000161_E003,2024-10-23,2024-10-24,3721.28,3,3,1,Visit -> ClinicalService -> Drug,45,Male,Social Security,Cardiology,DOC_004
+SYNTH_000162,SYN_000162_E001,2024-01-05,2024-01-08,2586.01,2,2,3,Visit -> Laboratory,62,Female,Social Security,Dermatology,DOC_001
+SYNTH_000162,SYN_000162_E002,2024-03-05,2024-03-12,9318.82,4,4,7,Visit -> Laboratory -> Radiology -> Drug,62,Female,Social Security,Neurology,DOC_010
+SYNTH_000162,SYN_000162_E003,2024-03-12,2024-03-19,1954.99,2,3,7,Visit -> Laboratory -> Laboratory,62,Female,Social Security,Neurology,DOC_008
+SYNTH_000162,SYN_000162_E004,2024-04-02,2024-04-04,8614.25,5,7,2,Visit -> Laboratory -> ClinicalService -> Radiology -> Drug -> Laboratory -> Laboratory,62,Female,Social Security,General Practice,DOC_004
+SYNTH_000162,SYN_000162_E005,2024-05-02,2024-05-05,6876.73,3,3,3,Visit -> Radiology -> Drug,62,Female,Social Security,Neurology,DOC_009
+SYNTH_000163,SYN_000163_E001,2024-06-07,2024-06-07,7650.98,3,3,0,Visit -> Radiology -> Drug,18,Male,Social Security,Neurology,DOC_009
+SYNTH_000164,SYN_000164_E001,2024-01-12,2024-01-14,5984.76,4,6,2,Visit -> Drug -> Laboratory -> Radiology -> Drug -> Radiology,69,Female,Health Insurance,Dermatology,DOC_010
+SYNTH_000164,SYN_000164_E002,2024-02-26,2024-02-28,6341.38,4,6,2,Visit -> Laboratory -> Drug -> Drug -> ClinicalService -> Laboratory,69,Female,Health Insurance,Neurology,DOC_009
+SYNTH_000164,SYN_000164_E003,2024-03-18,2024-03-19,4127.37,3,6,1,Visit -> Drug -> Drug -> Radiology -> Drug -> Radiology,69,Female,Health Insurance,Internal Medicine,DOC_002
+SYNTH_000164,SYN_000164_E004,2024-05-02,2024-05-09,6695.77,3,4,7,Visit -> ClinicalService -> Drug -> Drug,69,Female,Health Insurance,Neurology,DOC_001
+SYNTH_000165,SYN_000165_E001,2024-05-15,2024-05-16,6867.21,5,5,1,Visit -> ClinicalService -> Drug -> Laboratory -> Radiology,44,Male,Social Security,Gynecology,DOC_006
+SYNTH_000165,SYN_000165_E002,2024-06-14,2024-06-19,4015.44,2,2,5,Visit -> Radiology,44,Male,Social Security,Cardiology,DOC_006
+SYNTH_000165,SYN_000165_E003,2024-07-29,2024-08-01,4079.88,2,2,3,Visit -> ClinicalService,44,Male,Social Security,Orthopedics,DOC_008
+SYNTH_000165,SYN_000165_E004,2024-08-28,2024-08-30,7089.29,4,6,2,Visit -> Drug -> Drug -> ClinicalService -> Laboratory -> Drug,44,Male,Social Security,Orthopedics,DOC_010
+SYNTH_000166,SYN_000166_E001,2024-03-30,2024-03-30,4171.97,3,3,0,Visit -> ClinicalService -> Drug,36,Male,Organization,Dermatology,DOC_008
+SYNTH_000166,SYN_000166_E002,2024-04-20,2024-04-23,12506.73,3,6,3,Visit -> Drug -> Drug -> Drug -> Laboratory -> Laboratory,36,Male,Organization,General Practice,DOC_007
+SYNTH_000166,SYN_000166_E003,2024-06-04,2024-06-05,13765.06,4,7,1,Visit -> Drug -> Laboratory -> Radiology -> Drug -> Drug -> Drug,36,Male,Organization,Neurology,DOC_010
+SYNTH_000166,SYN_000166_E004,2024-06-25,2024-06-27,4295.55,3,7,2,Visit -> Drug -> Radiology -> Drug -> Drug -> Drug -> Drug,36,Male,Organization,Dermatology,DOC_007
+SYNTH_000166,SYN_000166_E005,2024-09-23,2024-09-24,8278.55,4,7,1,Visit -> Drug -> Drug -> Laboratory -> Radiology -> Radiology -> Drug,36,Male,Organization,General Practice,DOC_007
+SYNTH_000167,SYN_000167_E001,2024-04-20,2024-04-27,3434.51,4,6,7,Visit -> ClinicalService -> Laboratory -> Drug -> Laboratory -> Laboratory,47,Female,Health Insurance,Internal Medicine,DOC_003
+SYNTH_000168,SYN_000168_E001,2024-01-09,2024-01-10,6454.1,2,2,1,Visit -> Drug,31,Male,Social Security,Dermatology,DOC_007
+SYNTH_000169,SYN_000169_E001,2024-03-21,2024-03-26,2073.96,3,3,5,Visit -> Laboratory -> ClinicalService,43,Female,Other,Cardiology,DOC_001
+SYNTH_000169,SYN_000169_E002,2024-05-05,2024-05-08,9492.33,3,4,3,Visit -> Radiology -> Laboratory -> Laboratory,43,Female,Other,ENT,DOC_009
+SYNTH_000169,SYN_000169_E003,2024-06-04,2024-06-04,5942.45,3,4,0,Visit -> Laboratory -> Drug -> Drug,43,Female,Other,Neurology,DOC_008
+SYNTH_000169,SYN_000169_E004,2024-06-25,2024-06-26,21793.88,3,4,1,Visit -> Laboratory -> ClinicalService -> Laboratory,43,Female,Other,Neurology,DOC_008
+SYNTH_000170,SYN_000170_E001,2024-04-19,2024-04-22,5459.88,4,6,3,Visit -> Laboratory -> Drug -> Drug -> Radiology -> Drug,45,Female,Social Security,Internal Medicine,DOC_006
+SYNTH_000170,SYN_000170_E002,2024-07-18,2024-07-23,3525.01,4,4,5,Visit -> Drug -> ClinicalService -> Radiology,45,Female,Social Security,Cardiology,DOC_002
+SYNTH_000170,SYN_000170_E003,2024-09-01,2024-09-02,7531.51,2,2,1,Visit -> Radiology,45,Female,Social Security,Orthopedics,DOC_003
+SYNTH_000171,SYN_000171_E001,2024-07-31,2024-08-14,5164.61,3,7,14,Visit -> Laboratory -> Laboratory -> Laboratory -> ClinicalService -> Laboratory -> Laboratory,26,Female,Organization,Gynecology,DOC_002
+SYNTH_000171,SYN_000171_E002,2024-08-30,2024-09-02,4193.34,4,5,3,Visit -> ClinicalService -> Laboratory -> Laboratory -> Drug,26,Female,Organization,Internal Medicine,DOC_009
+SYNTH_000172,SYN_000172_E001,2024-06-07,2024-06-07,4581.07,3,4,0,Visit -> Drug -> Drug -> Laboratory,52,Female,Health Insurance,General Practice,DOC_001
+SYNTH_000172,SYN_000172_E002,2024-06-28,2024-07-03,14017.97,5,7,5,Visit -> Laboratory -> ClinicalService -> ClinicalService -> Drug -> Radiology -> Drug,52,Female,Health Insurance,Dermatology,DOC_010
+SYNTH_000172,SYN_000172_E003,2024-07-19,2024-07-21,5070.51,4,7,2,Visit -> Drug -> Drug -> Drug -> Laboratory -> Radiology -> Radiology,52,Female,Health Insurance,Gynecology,DOC_010
+SYNTH_000172,SYN_000172_E004,2024-08-18,2024-08-21,10802.59,3,7,3,Visit -> Laboratory -> Laboratory -> Laboratory -> Laboratory -> Laboratory -> Radiology,52,Female,Health Insurance,Neurology,DOC_009
+SYNTH_000173,SYN_000173_E001,2024-05-02,2024-05-03,12772.67,4,7,1,Visit -> Radiology -> Drug -> Radiology -> Radiology -> Laboratory -> Laboratory,43,Male,Social Security,Gynecology,DOC_006
+SYNTH_000173,SYN_000173_E002,2024-07-31,2024-08-07,8237.83,3,5,7,Visit -> Drug -> Radiology -> Radiology -> Drug,43,Male,Social Security,Orthopedics,DOC_002
+SYNTH_000173,SYN_000173_E003,2024-08-14,2024-08-15,8239.33,2,2,1,Visit -> Laboratory,43,Male,Social Security,ENT,DOC_002
+SYNTH_000173,SYN_000173_E004,2024-09-04,2024-09-05,5805.76,2,2,1,Visit -> Radiology,43,Male,Social Security,Gynecology,DOC_006
+SYNTH_000174,SYN_000174_E001,2024-07-30,2024-07-31,9815.94,4,7,1,Visit -> Laboratory -> Laboratory -> Drug -> Drug -> Laboratory -> ClinicalService,18,Female,Social Security,General Practice,DOC_002
+SYNTH_000174,SYN_000174_E002,2024-08-06,2024-08-07,13750.66,2,4,1,Visit -> Laboratory -> Laboratory -> Laboratory,18,Female,Social Security,Orthopedics,DOC_003
+SYNTH_000174,SYN_000174_E003,2024-09-05,2024-09-06,25571.78,4,5,1,Visit -> Drug -> Radiology -> Laboratory -> Laboratory,18,Female,Social Security,Internal Medicine,DOC_003
+SYNTH_000174,SYN_000174_E004,2024-09-26,2024-10-01,3043.16,2,2,5,Visit -> Drug,18,Female,Social Security,Dermatology,DOC_009
+SYNTH_000174,SYN_000174_E005,2024-10-17,2024-10-18,6793.45,4,4,1,Visit -> Drug -> Radiology -> Laboratory,18,Female,Social Security,ENT,DOC_005
+SYNTH_000175,SYN_000175_E001,2024-08-06,2024-08-07,15132.17,5,7,1,Visit -> Radiology -> Laboratory -> ClinicalService -> Drug -> Radiology -> Drug,38,Male,Social Security,Internal Medicine,DOC_009
+SYNTH_000175,SYN_000175_E002,2024-11-04,2024-11-07,3516.49,2,2,3,Visit -> Radiology,38,Male,Social Security,ENT,DOC_004
+SYNTH_000175,SYN_000175_E003,2024-12-04,2024-12-11,6988.28,2,2,7,Visit -> Drug,38,Male,Social Security,ENT,DOC_007
+SYNTH_000176,SYN_000176_E001,2024-03-29,2024-03-31,26378.51,4,6,2,Visit -> Laboratory -> Radiology -> Drug -> Laboratory -> Drug,21,Male,Organization,Cardiology,DOC_006
+SYNTH_000176,SYN_000176_E002,2024-04-12,2024-04-19,3493.05,3,4,7,Visit -> Laboratory -> ClinicalService -> Laboratory,21,Male,Organization,Neurology,DOC_009
+SYNTH_000176,SYN_000176_E003,2024-05-27,2024-05-28,3743.68,4,6,1,Visit -> Drug -> Radiology -> Drug -> ClinicalService -> Drug,21,Male,Organization,General Practice,DOC_007
+SYNTH_000177,SYN_000177_E001,2024-06-20,2024-06-22,8942.09,2,4,2,Visit -> Drug -> Drug -> Drug,26,Male,Social Security,Internal Medicine,DOC_001
+SYNTH_000177,SYN_000177_E002,2024-08-04,2024-08-05,4290.91,4,6,1,Visit -> Drug -> ClinicalService -> Laboratory -> Laboratory -> Laboratory,26,Male,Social Security,Orthopedics,DOC_007
+SYNTH_000177,SYN_000177_E003,2024-11-02,2024-11-04,2445.75,2,3,2,Visit -> Drug -> Drug,26,Male,Social Security,General Practice,DOC_008
+SYNTH_000177,SYN_000177_E004,2024-11-16,2024-11-21,1795.55,3,3,5,Visit -> Drug -> ClinicalService,26,Male,Social Security,Internal Medicine,DOC_010
+SYNTH_000178,SYN_000178_E001,2024-04-25,2024-04-25,8442.58,3,5,0,Visit -> Drug -> Radiology -> Radiology -> Drug,26,Female,Social Security,Gynecology,DOC_004
+SYNTH_000178,SYN_000178_E002,2024-06-09,2024-06-10,4494.65,4,6,1,Visit -> Laboratory -> Drug -> Laboratory -> Drug -> Radiology,26,Female,Social Security,Orthopedics,DOC_009
+SYNTH_000178,SYN_000178_E003,2024-07-09,2024-07-11,12740.2,4,7,2,Visit -> ClinicalService -> Radiology -> ClinicalService -> Laboratory -> Laboratory -> Laboratory,26,Female,Social Security,Neurology,DOC_007
+SYNTH_000178,SYN_000178_E004,2024-07-16,2024-07-16,4629.98,2,2,0,Visit -> ClinicalService,26,Female,Social Security,Neurology,DOC_002
+SYNTH_000178,SYN_000178_E005,2024-07-30,2024-08-01,2807.83,4,6,2,Visit -> ClinicalService -> Radiology -> Drug -> Drug -> Drug,26,Female,Social Security,Cardiology,DOC_009
+SYNTH_000179,SYN_000179_E001,2024-02-08,2024-02-11,7303.28,4,6,3,Visit -> Laboratory -> Laboratory -> Drug -> Radiology -> Drug,65,Female,Private,Dermatology,DOC_010
+SYNTH_000179,SYN_000179_E002,2024-02-15,2024-02-16,2536.9,2,3,1,Visit -> Drug -> Drug,65,Female,Private,Internal Medicine,DOC_006
+SYNTH_000179,SYN_000179_E003,2024-03-31,2024-04-02,3843.38,3,4,2,Visit -> Laboratory -> Drug -> Drug,65,Female,Private,General Practice,DOC_004
+SYNTH_000179,SYN_000179_E004,2024-04-14,2024-04-15,4493.76,3,4,1,Visit -> Drug -> Drug -> Radiology,65,Female,Private,Cardiology,DOC_004
+SYNTH_000179,SYN_000179_E005,2024-04-21,2024-04-23,2319.47,2,2,2,Visit -> Radiology,65,Female,Private,ENT,DOC_010
+SYNTH_000180,SYN_000180_E001,2024-03-25,2024-03-30,4970.66,2,2,5,Visit -> Laboratory,51,Female,Private,Neurology,DOC_004
+SYNTH_000180,SYN_000180_E002,2024-05-24,2024-05-26,10461.18,4,5,2,Visit -> Drug -> Drug -> Laboratory -> Radiology,51,Female,Private,Gynecology,DOC_003
+SYNTH_000180,SYN_000180_E003,2024-06-23,2024-06-23,11611.99,4,4,0,Visit -> Laboratory -> Radiology -> ClinicalService,51,Female,Private,Dermatology,DOC_009
+SYNTH_000180,SYN_000180_E004,2024-08-22,2024-08-25,3354.81,2,2,3,Visit -> Laboratory,51,Female,Private,Internal Medicine,DOC_010
+SYNTH_000180,SYN_000180_E005,2024-09-21,2024-09-22,9167.67,4,5,1,Visit -> Laboratory -> Drug -> ClinicalService -> ClinicalService,51,Female,Private,ENT,DOC_006
+SYNTH_000181,SYN_000181_E001,2024-05-02,2024-05-05,9347.09,3,3,3,Visit -> Drug -> Radiology,19,Female,Private,Orthopedics,DOC_001
+SYNTH_000181,SYN_000181_E002,2024-07-31,2024-08-02,5663.07,3,3,2,Visit -> Radiology -> ClinicalService,19,Female,Private,General Practice,DOC_003
+SYNTH_000181,SYN_000181_E003,2024-09-14,2024-09-16,1813.04,3,7,2,Visit -> Drug -> Drug -> Drug -> Drug -> Laboratory -> Laboratory,19,Female,Private,Internal Medicine,DOC_001
+SYNTH_000181,SYN_000181_E004,2024-09-28,2024-10-03,9981.44,3,4,5,Visit -> Laboratory -> Radiology -> Laboratory,19,Female,Private,Neurology,DOC_009
+SYNTH_000181,SYN_000181_E005,2024-11-12,2024-11-15,6616.46,3,7,3,Visit -> Drug -> Drug -> Drug -> Drug -> Laboratory -> Laboratory,19,Female,Private,Dermatology,DOC_009
+SYNTH_000182,SYN_000182_E001,2024-07-31,2024-08-03,11674.96,5,6,3,Visit -> ClinicalService -> Laboratory -> Laboratory -> Radiology -> Drug,26,Female,Social Security,Cardiology,DOC_001
+SYNTH_000183,SYN_000183_E001,2024-07-03,2024-07-13,12663.64,3,7,10,Visit -> Drug -> Drug -> Laboratory -> Drug -> Drug -> Drug,40,Male,Social Security,Internal Medicine,DOC_006
+SYNTH_000183,SYN_000183_E002,2024-08-02,2024-08-04,1933.22,2,3,2,Visit -> ClinicalService -> ClinicalService,40,Male,Social Security,Cardiology,DOC_009
+SYNTH_000183,SYN_000183_E003,2024-08-09,2024-08-12,1793.93,2,2,3,Visit -> Drug,40,Male,Social Security,Cardiology,DOC_003
+SYNTH_000183,SYN_000183_E004,2024-09-08,2024-09-09,3399.71,2,4,1,Visit -> Drug -> Drug -> Drug,40,Male,Social Security,General Practice,DOC_008
+SYNTH_000184,SYN_000184_E001,2024-05-25,2024-05-28,3940.81,3,3,3,Visit -> Drug -> Laboratory,55,Female,Organization,Dermatology,DOC_008
+SYNTH_000184,SYN_000184_E002,2024-06-15,2024-06-15,7668.57,4,7,0,Visit -> Radiology -> Laboratory -> Drug -> Drug -> Radiology -> Laboratory,55,Female,Organization,Gynecology,DOC_003
+SYNTH_000184,SYN_000184_E003,2024-08-14,2024-08-15,4835.2,4,7,1,Visit -> Laboratory -> Laboratory -> Laboratory -> Drug -> Radiology -> Laboratory,55,Female,Organization,Neurology,DOC_006
+SYNTH_000185,SYN_000185_E001,2024-02-01,2024-02-08,6381.05,3,4,7,Visit -> ClinicalService -> ClinicalService -> Radiology,36,Male,Private,Gynecology,DOC_002
+SYNTH_000185,SYN_000185_E002,2024-03-02,2024-03-03,26555.26,5,6,1,Visit -> Radiology -> ClinicalService -> Drug -> ClinicalService -> Laboratory,36,Male,Private,Gynecology,DOC_008
+SYNTH_000186,SYN_000186_E001,2024-05-29,2024-06-12,29403.28,4,5,14,Visit -> ClinicalService -> Radiology -> Radiology -> Laboratory,28,Female,Social Security,Dermatology,DOC_004
+SYNTH_000186,SYN_000186_E002,2024-06-05,2024-06-08,44811.95,4,5,3,Visit -> Laboratory -> Radiology -> Drug -> Drug,28,Female,Social Security,Neurology,DOC_008
+SYNTH_000186,SYN_000186_E003,2024-06-26,2024-06-28,21448.92,4,7,2,Visit -> Drug -> Laboratory -> Drug -> Laboratory -> Drug -> ClinicalService,28,Female,Social Security,Neurology,DOC_005
+SYNTH_000187,SYN_000187_E001,2024-01-11,2024-01-16,2210.81,4,5,5,Visit -> Laboratory -> ClinicalService -> Laboratory -> Drug,46,Female,Private,Cardiology,DOC_002
+SYNTH_000187,SYN_000187_E002,2024-01-25,2024-02-01,7269.37,2,4,7,Visit -> Radiology -> Radiology -> Radiology,46,Female,Private,Internal Medicine,DOC_005
+SYNTH_000188,SYN_000188_E001,2024-07-27,2024-08-01,7528.43,2,2,5,Visit -> Radiology,30,Male,Health Insurance,Cardiology,DOC_004
+SYNTH_000188,SYN_000188_E002,2024-10-25,2024-10-27,27270.18,4,5,2,Visit -> Radiology -> ClinicalService -> ClinicalService -> Laboratory,30,Male,Health Insurance,Neurology,DOC_008
+SYNTH_000188,SYN_000188_E003,2024-12-09,2024-12-19,4003.26,2,2,10,Visit -> Drug,30,Male,Health Insurance,Dermatology,DOC_001
+SYNTH_000189,SYN_000189_E001,2024-05-26,2024-05-27,24616.33,4,7,1,Visit -> Drug -> Laboratory -> Radiology -> Radiology -> Drug -> Radiology,59,Female,Social Security,Internal Medicine,DOC_005
+SYNTH_000189,SYN_000189_E002,2024-07-10,2024-07-13,7102.65,5,7,3,Visit -> Drug -> Radiology -> Drug -> Drug -> Laboratory -> ClinicalService,59,Female,Social Security,Gynecology,DOC_008
+SYNTH_000189,SYN_000189_E003,2024-08-09,2024-08-14,7060.46,3,4,5,Visit -> Laboratory -> Drug -> Drug,59,Female,Social Security,Internal Medicine,DOC_002
+SYNTH_000189,SYN_000189_E004,2024-08-23,2024-08-30,10205.79,4,6,7,Visit -> Laboratory -> Radiology -> Laboratory -> Drug -> Drug,59,Female,Social Security,Orthopedics,DOC_004
+SYNTH_000189,SYN_000189_E005,2024-09-13,2024-09-13,3581.02,3,3,0,Visit -> Radiology -> Laboratory,59,Female,Social Security,Internal Medicine,DOC_006
+SYNTH_000190,SYN_000190_E001,2024-07-06,2024-07-09,2326.18,2,2,3,Visit -> ClinicalService,85,Male,Health Insurance,ENT,DOC_001
+SYNTH_000190,SYN_000190_E002,2024-10-04,2024-10-07,4151.03,2,2,3,Visit -> Laboratory,85,Male,Health Insurance,Internal Medicine,DOC_007
+SYNTH_000191,SYN_000191_E001,2024-02-20,2024-02-21,10196.37,4,6,1,Visit -> Drug -> Radiology -> Radiology -> Radiology -> ClinicalService,57,Female,Private,General Practice,DOC_010
+SYNTH_000191,SYN_000191_E002,2024-03-21,2024-03-22,10845.44,4,4,1,Visit -> Drug -> Laboratory -> Radiology,57,Female,Private,Internal Medicine,DOC_007
+SYNTH_000191,SYN_000191_E003,2024-04-04,2024-04-04,11789.01,3,4,0,Visit -> Drug -> Radiology -> Drug,57,Female,Private,General Practice,DOC_007
+SYNTH_000192,SYN_000192_E001,2024-02-04,2024-02-05,6549.77,5,6,1,Visit -> Laboratory -> Drug -> ClinicalService -> Drug -> Radiology,65,Female,Private,Gynecology,DOC_006
+SYNTH_000192,SYN_000192_E002,2024-03-05,2024-03-12,5482.27,4,7,7,Visit -> Drug -> Drug -> Laboratory -> Laboratory -> ClinicalService -> ClinicalService,65,Female,Private,General Practice,DOC_007
+SYNTH_000192,SYN_000192_E003,2024-05-04,2024-05-04,5681.05,3,7,0,Visit -> Drug -> Drug -> ClinicalService -> Drug -> ClinicalService -> Drug,65,Female,Private,Orthopedics,DOC_004
+SYNTH_000193,SYN_000193_E001,2024-06-02,2024-06-02,5149.12,4,5,0,Visit -> Drug -> Laboratory -> Radiology -> Laboratory,46,Male,Social Security,Cardiology,DOC_009
+SYNTH_000193,SYN_000193_E002,2024-06-23,2024-06-24,2267.75,2,2,1,Visit -> ClinicalService,46,Male,Social Security,Cardiology,DOC_004
+SYNTH_000193,SYN_000193_E003,2024-07-23,2024-07-24,9749.73,3,3,1,Visit -> Laboratory -> Radiology,46,Male,Social Security,Dermatology,DOC_005
+SYNTH_000194,SYN_000194_E001,2024-07-25,2024-08-08,13064.15,4,7,14,Visit -> Radiology -> Radiology -> Drug -> Laboratory -> Laboratory -> Drug,66,Female,Social Security,ENT,DOC_006
+SYNTH_000194,SYN_000194_E002,2024-09-08,2024-09-10,6030.13,5,5,2,Visit -> Drug -> ClinicalService -> Laboratory -> Radiology,66,Female,Social Security,Cardiology,DOC_001
+SYNTH_000194,SYN_000194_E003,2024-09-29,2024-10-01,3365.87,3,3,2,Visit -> ClinicalService -> Drug,66,Female,Social Security,Orthopedics,DOC_002
+SYNTH_000195,SYN_000195_E001,2024-01-25,2024-01-25,7020.85,4,7,0,Visit -> Drug -> Radiology -> Drug -> Drug -> ClinicalService -> Drug,63,Male,Health Insurance,Cardiology,DOC_002
+SYNTH_000195,SYN_000195_E002,2024-02-15,2024-02-18,1517.75,2,2,3,Visit -> ClinicalService,63,Male,Health Insurance,Gynecology,DOC_001
+SYNTH_000195,SYN_000195_E003,2024-03-31,2024-04-01,2872.97,4,5,1,Visit -> Radiology -> Radiology -> ClinicalService -> Laboratory,63,Male,Health Insurance,Orthopedics,DOC_004
+SYNTH_000195,SYN_000195_E004,2024-04-30,2024-05-02,14882.99,4,6,2,Visit -> Laboratory -> Drug -> Laboratory -> Laboratory -> ClinicalService,63,Male,Health Insurance,Cardiology,DOC_007
+SYNTH_000196,SYN_000196_E001,2024-04-20,2024-04-25,8647.94,3,5,5,Visit -> Laboratory -> Drug -> Laboratory -> Laboratory,51,Female,Private,Gynecology,DOC_006
+SYNTH_000197,SYN_000197_E001,2024-08-01,2024-08-03,4263.58,4,4,2,Visit -> Radiology -> Laboratory -> Drug,57,Male,Organization,Internal Medicine,DOC_002
+SYNTH_000197,SYN_000197_E002,2024-09-15,2024-09-17,1673.02,4,7,2,Visit -> Radiology -> Radiology -> Drug -> Drug -> Laboratory -> Drug,57,Male,Organization,Gynecology,DOC_001
+SYNTH_000197,SYN_000197_E003,2024-10-30,2024-11-02,7045.87,3,3,3,Visit -> Radiology -> Drug,57,Male,Organization,Orthopedics,DOC_006
+SYNTH_000197,SYN_000197_E004,2024-12-29,2024-12-29,3604.62,3,3,0,Visit -> Drug -> Laboratory,57,Male,Organization,General Practice,DOC_004
+SYNTH_000198,SYN_000198_E001,2024-05-24,2024-05-25,3117.01,4,4,1,Visit -> Drug -> ClinicalService -> Radiology,46,Male,Health Insurance,Internal Medicine,DOC_004
+SYNTH_000198,SYN_000198_E002,2024-05-31,2024-06-10,7082.84,3,5,10,Visit -> Drug -> Drug -> Radiology -> Drug,46,Male,Health Insurance,Cardiology,DOC_003
+SYNTH_000198,SYN_000198_E003,2024-07-15,2024-07-20,27034.66,4,6,5,Visit -> Laboratory -> Laboratory -> ClinicalService -> Drug -> Laboratory,46,Male,Health Insurance,Orthopedics,DOC_009
+SYNTH_000198,SYN_000198_E004,2024-08-05,2024-08-05,5807.18,2,3,0,Visit -> Laboratory -> Laboratory,46,Male,Health Insurance,Cardiology,DOC_009
+SYNTH_000199,SYN_000199_E001,2024-01-21,2024-01-31,2907.6,4,5,10,Visit -> ClinicalService -> Radiology -> Drug -> Drug,41,Female,Health Insurance,General Practice,DOC_003
+SYNTH_000199,SYN_000199_E002,2024-03-21,2024-03-24,9601.04,5,7,3,Visit -> Radiology -> Laboratory -> Laboratory -> ClinicalService -> Radiology -> Drug,41,Female,Health Insurance,General Practice,DOC_001
+SYNTH_000199,SYN_000199_E003,2024-06-19,2024-06-19,8310.19,4,6,0,Visit -> Drug -> Drug -> Radiology -> ClinicalService -> Drug,41,Female,Health Insurance,General Practice,DOC_010
+SYNTH_000199,SYN_000199_E004,2024-06-26,2024-07-03,5640.09,4,7,7,Visit -> ClinicalService -> Radiology -> Drug -> ClinicalService -> Drug -> Drug,41,Female,Health Insurance,Dermatology,DOC_009
+SYNTH_000199,SYN_000199_E005,2024-07-10,2024-07-15,11005.13,4,7,5,Visit -> Laboratory -> Radiology -> ClinicalService -> Laboratory -> Radiology -> Laboratory,41,Female,Health Insurance,ENT,DOC_005
+SYNTH_000200,SYN_000200_E001,2024-04-10,2024-04-11,9998.49,4,7,1,Visit -> Drug -> Laboratory -> Radiology -> Radiology -> Drug -> Laboratory,61,Female,Other,Gynecology,DOC_001
+SYNTH_000201,SYN_000201_E001,2024-03-25,2024-04-01,5363.35,3,7,7,Visit -> Laboratory -> Laboratory -> Laboratory -> Laboratory -> Laboratory -> Radiology,36,Male,Other,Dermatology,DOC_004
+SYNTH_000202,SYN_000202_E001,2024-06-18,2024-06-20,2540.41,4,5,2,Visit -> Radiology -> Drug -> ClinicalService -> ClinicalService,53,Female,Social Security,Dermatology,DOC_007
+SYNTH_000202,SYN_000202_E002,2024-08-02,2024-08-07,8626.42,4,7,5,Visit -> Radiology -> Laboratory -> Radiology -> Radiology -> Drug -> Drug,53,Female,Social Security,ENT,DOC_009
+SYNTH_000203,SYN_000203_E001,2024-04-07,2024-04-14,9396.11,3,6,7,Visit -> Radiology -> Laboratory -> Laboratory -> Radiology -> Radiology,51,Male,Organization,Gynecology,DOC_005
+SYNTH_000203,SYN_000203_E002,2024-05-07,2024-05-12,6658.15,2,2,5,Visit -> Radiology,51,Male,Organization,Orthopedics,DOC_008
+SYNTH_000203,SYN_000203_E003,2024-05-28,2024-06-02,21596.26,3,4,5,Visit -> Laboratory -> Radiology -> Radiology,51,Male,Organization,Neurology,DOC_003
+SYNTH_000204,SYN_000204_E001,2024-03-01,2024-03-04,3400.76,3,5,3,Visit -> Radiology -> Drug -> Drug -> Radiology,55,Female,Organization,Cardiology,DOC_006
+SYNTH_000204,SYN_000204_E002,2024-03-31,2024-04-01,10945.38,3,4,1,Visit -> Drug -> Laboratory -> Drug,55,Female,Organization,ENT,DOC_009
+SYNTH_000204,SYN_000204_E003,2024-06-29,2024-06-29,18112.95,4,7,0,Visit -> Drug -> Radiology -> ClinicalService -> ClinicalService -> Drug -> Drug,55,Female,Organization,Dermatology,DOC_010
+SYNTH_000204,SYN_000204_E004,2024-07-29,2024-08-03,4700.58,3,5,5,Visit -> Drug -> Laboratory -> Drug -> Laboratory,55,Female,Organization,Internal Medicine,DOC_005
+SYNTH_000205,SYN_000205_E001,2024-02-22,2024-02-24,11254.63,2,5,2,Visit -> Drug -> Drug -> Drug -> Drug,20,Female,Social Security,Internal Medicine,DOC_007
+SYNTH_000205,SYN_000205_E002,2024-04-07,2024-04-17,1996.25,3,3,10,Visit -> Drug -> Radiology,20,Female,Social Security,Gynecology,DOC_003
+SYNTH_000205,SYN_000205_E003,2024-04-28,2024-04-28,9280.29,2,2,0,Visit -> Radiology,20,Female,Social Security,Cardiology,DOC_005
+SYNTH_000205,SYN_000205_E004,2024-05-28,2024-05-28,24957.62,4,5,0,Visit -> Radiology -> Drug -> Radiology -> Laboratory,20,Female,Social Security,Orthopedics,DOC_009
+SYNTH_000206,SYN_000206_E001,2024-04-23,2024-04-23,8352.42,4,5,0,Visit -> Laboratory -> Drug -> Drug -> ClinicalService,47,Female,Private,Cardiology,DOC_009
+SYNTH_000206,SYN_000206_E002,2024-05-14,2024-05-16,9707.57,4,5,2,Visit -> Radiology -> Radiology -> ClinicalService -> Drug,47,Female,Private,Dermatology,DOC_006
+SYNTH_000206,SYN_000206_E003,2024-06-04,2024-06-04,11973.69,3,4,0,Visit -> Radiology -> Radiology -> ClinicalService,47,Female,Private,Cardiology,DOC_006
+SYNTH_000206,SYN_000206_E004,2024-06-25,2024-06-26,6072.07,3,3,1,Visit -> Drug -> Laboratory,47,Female,Private,Internal Medicine,DOC_006
+SYNTH_000206,SYN_000206_E005,2024-08-24,2024-08-24,4596.87,3,5,0,Visit -> Drug -> Radiology -> Drug -> Drug,47,Female,Private,Internal Medicine,DOC_007
+SYNTH_000207,SYN_000207_E001,2024-04-21,2024-04-23,8469.63,4,6,2,Visit -> Laboratory -> Laboratory -> Laboratory -> Drug -> Radiology,53,Male,Social Security,Orthopedics,DOC_005
+SYNTH_000207,SYN_000207_E002,2024-05-21,2024-05-26,3528.19,3,3,5,Visit -> Radiology -> Drug,53,Male,Social Security,General Practice,DOC_002
+SYNTH_000208,SYN_000208_E001,2024-06-29,2024-07-02,14582.23,4,7,3,Visit -> ClinicalService -> Drug -> Radiology -> Drug -> Drug -> Radiology,48,Female,Social Security,Orthopedics,DOC_005
+SYNTH_000208,SYN_000208_E002,2024-07-20,2024-07-25,3920.08,4,6,5,Visit -> Drug -> Laboratory -> ClinicalService -> Laboratory -> Drug,48,Female,Social Security,Orthopedics,DOC_007
+SYNTH_000209,SYN_000209_E001,2024-05-22,2024-05-24,6263.96,2,2,2,Visit -> Radiology,59,Female,Health Insurance,Gynecology,DOC_009
+SYNTH_000209,SYN_000209_E002,2024-06-21,2024-06-26,7989.32,3,5,5,Visit -> ClinicalService -> Radiology -> ClinicalService -> Radiology,59,Female,Health Insurance,ENT,DOC_007
+SYNTH_000209,SYN_000209_E003,2024-07-05,2024-07-12,18061.59,4,7,7,Visit -> Radiology -> Radiology -> ClinicalService -> ClinicalService -> ClinicalService -> Drug,59,Female,Health Insurance,Dermatology,DOC_001
+SYNTH_000209,SYN_000209_E004,2024-07-19,2024-07-20,9567.4,2,2,1,Visit -> ClinicalService,59,Female,Health Insurance,Internal Medicine,DOC_008
+SYNTH_000210,SYN_000210_E001,2024-04-23,2024-04-25,4912.02,3,3,2,Visit -> Drug -> Laboratory,80,Male,Private,Gynecology,DOC_002
+SYNTH_000210,SYN_000210_E002,2024-07-22,2024-07-25,3370.23,3,4,3,Visit -> Laboratory -> Drug -> Drug,80,Male,Private,ENT,DOC_006
+SYNTH_000210,SYN_000210_E003,2024-09-20,2024-09-21,6280.35,2,3,1,Visit -> Drug -> Drug,80,Male,Private,Neurology,DOC_008
+SYNTH_000210,SYN_000210_E004,2024-12-19,2024-12-20,7957.89,4,7,1,Visit -> Drug -> Laboratory -> Drug -> ClinicalService -> Laboratory -> Drug,80,Male,Private,Dermatology,DOC_007
+SYNTH_000210,SYN_000210_E005,2024-12-26,2024-12-31,3382.9,2,2,5,Visit -> Drug,80,Male,Private,Neurology,DOC_005
+SYNTH_000211,SYN_000211_E001,2024-01-17,2024-01-17,1747.44,2,2,0,Visit -> Laboratory,18,Male,Private,Internal Medicine,DOC_002
+SYNTH_000212,SYN_000212_E001,2024-01-09,2024-01-12,1007.19,2,2,3,Visit -> Drug,18,Female,Social Security,Dermatology,DOC_007
+SYNTH_000212,SYN_000212_E002,2024-01-30,2024-01-31,2579.18,2,2,1,Visit -> Laboratory,18,Female,Social Security,Neurology,DOC_001
+SYNTH_000213,SYN_000213_E001,2024-04-15,2024-04-18,2932.68,3,3,3,Visit -> Drug -> Laboratory,18,Male,Private,Gynecology,DOC_010
+SYNTH_000213,SYN_000213_E002,2024-05-06,2024-05-06,6078.61,5,7,0,Visit -> Laboratory -> Radiology -> Laboratory -> Drug -> ClinicalService -> Drug,18,Male,Private,Gynecology,DOC_003
+SYNTH_000213,SYN_000213_E003,2024-05-27,2024-05-30,924.2,2,3,3,Visit -> Drug -> Drug,18,Male,Private,Gynecology,DOC_001
+SYNTH_000213,SYN_000213_E004,2024-07-11,2024-07-12,2643.91,3,6,1,Visit -> Drug -> Drug -> Drug -> ClinicalService -> Drug,18,Male,Private,Cardiology,DOC_004
+SYNTH_000214,SYN_000214_E001,2024-03-06,2024-03-13,3249.11,4,5,7,Visit -> Radiology -> Drug -> ClinicalService -> Radiology,49,Male,Organization,Orthopedics,DOC_007
+SYNTH_000215,SYN_000215_E001,2024-05-14,2024-05-24,2454.0,2,2,10,Visit -> Drug,41,Male,Social Security,Neurology,DOC_006
+SYNTH_000215,SYN_000215_E002,2024-06-04,2024-06-06,2865.92,3,3,2,Visit -> Radiology -> Laboratory,41,Male,Social Security,Internal Medicine,DOC_006
+SYNTH_000215,SYN_000215_E003,2024-09-02,2024-09-16,7541.76,2,4,14,Visit -> Laboratory -> Laboratory -> Laboratory,41,Male,Social Security,Gynecology,DOC_004
+SYNTH_000216,SYN_000216_E001,2024-08-26,2024-08-29,3309.15,3,6,3,Visit -> Radiology -> Drug -> Radiology -> Radiology -> Drug,70,Male,Social Security,Orthopedics,DOC_004
+SYNTH_000216,SYN_000216_E002,2024-09-09,2024-09-11,26980.92,4,5,2,Visit -> Drug -> Laboratory -> Radiology -> Drug,70,Male,Social Security,Gynecology,DOC_002
+SYNTH_000216,SYN_000216_E003,2024-10-09,2024-10-10,4699.46,4,5,1,Visit -> Drug -> Drug -> Radiology -> Laboratory,70,Male,Social Security,Neurology,DOC_004
+SYNTH_000217,SYN_000217_E001,2024-06-03,2024-06-08,2041.12,3,3,5,Visit -> Drug -> Laboratory,47,Female,Health Insurance,Orthopedics,DOC_010
+SYNTH_000217,SYN_000217_E002,2024-07-03,2024-07-03,16599.62,3,3,0,Visit -> Drug -> Laboratory,47,Female,Health Insurance,Gynecology,DOC_003
+SYNTH_000217,SYN_000217_E003,2024-08-02,2024-08-03,3029.52,4,4,1,Visit -> ClinicalService -> Laboratory -> Radiology,47,Female,Health Insurance,Orthopedics,DOC_005
+SYNTH_000217,SYN_000217_E004,2024-09-01,2024-09-04,1706.87,2,2,3,Visit -> Laboratory,47,Female,Health Insurance,ENT,DOC_007
+SYNTH_000218,SYN_000218_E001,2024-01-23,2024-01-25,24413.08,4,5,2,Visit -> Laboratory -> Laboratory -> Radiology -> Drug,35,Male,Social Security,Cardiology,DOC_010
+SYNTH_000218,SYN_000218_E002,2024-04-22,2024-04-23,6608.48,4,5,1,Visit -> Drug -> Laboratory -> Drug -> ClinicalService,35,Male,Social Security,Gynecology,DOC_010
+SYNTH_000218,SYN_000218_E003,2024-05-22,2024-05-22,25194.33,3,3,0,Visit -> Radiology -> Drug,35,Male,Social Security,Cardiology,DOC_009
+SYNTH_000219,SYN_000219_E001,2024-01-09,2024-01-10,8525.27,3,5,1,Visit -> Radiology -> Radiology -> Drug -> Radiology,61,Female,Social Security,Neurology,DOC_008
+SYNTH_000220,SYN_000220_E001,2024-05-03,2024-05-13,10625.74,3,3,10,Visit -> ClinicalService -> Radiology,18,Female,Health Insurance,Internal Medicine,DOC_010
+SYNTH_000220,SYN_000220_E002,2024-05-17,2024-05-19,6763.64,5,6,2,Visit -> Radiology -> Laboratory -> Drug -> ClinicalService -> Drug,18,Female,Health Insurance,Cardiology,DOC_002
+SYNTH_000220,SYN_000220_E003,2024-07-01,2024-07-03,1615.26,2,2,2,Visit -> Radiology,18,Female,Health Insurance,ENT,DOC_001
+SYNTH_000220,SYN_000220_E004,2024-08-30,2024-09-02,1464.04,4,7,3,Visit -> Drug -> Radiology -> Laboratory -> Laboratory -> Radiology -> Laboratory,18,Female,Health Insurance,Dermatology,DOC_001
+SYNTH_000221,SYN_000221_E001,2024-04-01,2024-04-03,3695.72,4,7,2,Visit -> Laboratory -> Laboratory -> Drug -> Laboratory -> ClinicalService -> Laboratory,82,Female,Health Insurance,Internal Medicine,DOC_009
+SYNTH_000222,SYN_000222_E001,2024-05-23,2024-05-28,6019.48,4,7,5,Visit -> ClinicalService -> ClinicalService -> Laboratory -> Drug -> Laboratory -> ClinicalService,60,Male,Social Security,Dermatology,DOC_006
+SYNTH_000222,SYN_000222_E002,2024-07-22,2024-07-24,7535.87,4,6,2,Visit -> Laboratory -> Drug -> ClinicalService -> Laboratory -> Laboratory,60,Male,Social Security,Neurology,DOC_005
+SYNTH_000223,SYN_000223_E001,2024-03-28,2024-04-04,4872.08,3,3,7,Visit -> Laboratory -> Radiology,43,Female,Private,Dermatology,DOC_005
+SYNTH_000223,SYN_000223_E002,2024-05-12,2024-05-19,3166.64,2,3,7,Visit -> Drug -> Drug,43,Female,Private,Internal Medicine,DOC_009
+SYNTH_000223,SYN_000223_E003,2024-06-26,2024-06-27,8163.06,4,4,1,Visit -> Radiology -> Drug -> ClinicalService,43,Female,Private,Internal Medicine,DOC_009
+SYNTH_000223,SYN_000223_E004,2024-07-10,2024-07-12,5100.46,2,2,2,Visit -> Laboratory,43,Female,Private,Dermatology,DOC_005
+SYNTH_000223,SYN_000223_E005,2024-09-08,2024-09-09,6445.84,4,4,1,Visit -> Laboratory -> Radiology -> Drug,43,Female,Private,Neurology,DOC_008
+SYNTH_000224,SYN_000224_E001,2024-08-23,2024-08-25,11121.8,3,4,2,Visit -> Drug -> Drug -> Radiology,67,Female,Organization,General Practice,DOC_003
+SYNTH_000224,SYN_000224_E002,2024-09-06,2024-09-08,5422.81,4,4,2,Visit -> Drug -> ClinicalService -> Radiology,67,Female,Organization,Dermatology,DOC_001
+SYNTH_000224,SYN_000224_E003,2024-11-05,2024-11-05,14171.73,3,7,0,Visit -> Drug -> Laboratory -> Laboratory -> Drug -> Laboratory -> Laboratory,67,Female,Organization,Cardiology,DOC_001
+SYNTH_000224,SYN_000224_E004,2024-12-05,2024-12-15,39010.91,4,5,10,Visit -> Drug -> ClinicalService -> Laboratory -> Laboratory,67,Female,Organization,General Practice,DOC_002
+SYNTH_000225,SYN_000225_E001,2024-05-04,2024-05-07,2848.86,4,6,3,Visit -> Radiology -> Drug -> Drug -> Laboratory -> Drug,24,Female,Organization,Neurology,DOC_001
+SYNTH_000226,SYN_000226_E001,2024-08-13,2024-08-18,27146.17,5,6,5,Visit -> Radiology -> Drug -> Laboratory -> ClinicalService -> Drug,22,Male,Organization,Internal Medicine,DOC_002
+SYNTH_000226,SYN_000226_E002,2024-09-12,2024-09-13,27917.55,4,6,1,Visit -> Laboratory -> Drug -> Drug -> Radiology -> Laboratory,22,Male,Organization,General Practice,DOC_007
+SYNTH_000226,SYN_000226_E003,2024-10-12,2024-10-26,7446.66,4,7,14,Visit -> Radiology -> ClinicalService -> ClinicalService -> Drug -> Radiology -> Drug,22,Male,Organization,Gynecology,DOC_010
+SYNTH_000227,SYN_000227_E001,2024-01-22,2024-02-01,2351.54,2,4,10,Visit -> Laboratory -> Laboratory -> Laboratory,63,Male,Private,General Practice,DOC_007
+SYNTH_000228,SYN_000228_E001,2024-08-08,2024-08-11,5044.26,2,2,3,Visit -> Laboratory,45,Male,Social Security,Gynecology,DOC_003
+SYNTH_000228,SYN_000228_E002,2024-08-22,2024-08-25,16300.76,3,3,3,Visit -> Laboratory -> Radiology,45,Male,Social Security,Internal Medicine,DOC_008
+SYNTH_000228,SYN_000228_E003,2024-11-20,2024-12-04,5456.17,2,4,14,Visit -> Drug -> Drug -> Drug,45,Male,Social Security,Internal Medicine,DOC_003
+SYNTH_000228,SYN_000228_E004,2024-12-20,2024-12-20,19663.27,3,3,0,Visit -> ClinicalService -> Radiology,45,Male,Social Security,Internal Medicine,DOC_001
+SYNTH_000229,SYN_000229_E001,2024-05-03,2024-05-06,4701.41,3,3,3,Visit -> Drug -> ClinicalService,83,Female,Health Insurance,Gynecology,DOC_008
+SYNTH_000230,SYN_000230_E001,2024-06-25,2024-06-25,7696.46,3,3,0,Visit -> Drug -> Radiology,28,Male,Health Insurance,Gynecology,DOC_003
+SYNTH_000231,SYN_000231_E001,2024-08-02,2024-08-02,2370.33,2,2,0,Visit -> Laboratory,19,Male,Social Security,Dermatology,DOC_003
+SYNTH_000231,SYN_000231_E002,2024-09-16,2024-09-19,5692.95,4,5,3,Visit -> Laboratory -> Laboratory -> ClinicalService -> Radiology,19,Male,Social Security,Neurology,DOC_008
+SYNTH_000231,SYN_000231_E003,2024-10-16,2024-10-26,1910.82,3,3,10,Visit -> Radiology -> ClinicalService,19,Male,Social Security,Internal Medicine,DOC_007
+SYNTH_000232,SYN_000232_E001,2024-04-27,2024-05-02,10545.6,4,5,5,Visit -> ClinicalService -> ClinicalService -> Laboratory -> Drug,69,Female,Social Security,Dermatology,DOC_003
+SYNTH_000232,SYN_000232_E002,2024-07-26,2024-07-28,4995.85,2,4,2,Visit -> Drug -> Drug -> Drug,69,Female,Social Security,General Practice,DOC_008
+SYNTH_000233,SYN_000233_E001,2024-01-20,2024-01-20,23992.51,4,7,0,Visit -> Drug -> Drug -> Drug -> Radiology -> Drug -> Laboratory,51,Female,Organization,General Practice,DOC_007
+SYNTH_000234,SYN_000234_E001,2024-01-05,2024-01-08,15411.32,4,6,3,Visit -> Drug -> Drug -> Laboratory -> Drug -> ClinicalService,36,Female,Social Security,Cardiology,DOC_006
+SYNTH_000234,SYN_000234_E002,2024-02-19,2024-02-20,24543.7,5,5,1,Visit -> ClinicalService -> Laboratory -> Radiology -> Drug,36,Female,Social Security,Dermatology,DOC_007
+SYNTH_000234,SYN_000234_E003,2024-03-20,2024-03-21,2823.3,2,2,1,Visit -> Radiology,36,Female,Social Security,General Practice,DOC_007
+SYNTH_000234,SYN_000234_E004,2024-03-27,2024-03-30,17525.92,3,3,3,Visit -> ClinicalService -> Drug,36,Female,Social Security,General Practice,DOC_001
+SYNTH_000234,SYN_000234_E005,2024-04-26,2024-04-28,3867.26,4,5,2,Visit -> Laboratory -> Laboratory -> ClinicalService -> Radiology,36,Female,Social Security,General Practice,DOC_003
+SYNTH_000235,SYN_000235_E001,2024-06-25,2024-06-28,13751.11,4,6,3,Visit -> Laboratory -> Drug -> Radiology -> Laboratory -> Drug,47,Male,Social Security,Dermatology,DOC_008
+SYNTH_000235,SYN_000235_E002,2024-07-09,2024-07-10,5714.47,5,7,1,Visit -> Drug -> Laboratory -> Radiology -> ClinicalService -> Laboratory -> Radiology,47,Male,Social Security,Cardiology,DOC_005
+SYNTH_000235,SYN_000235_E003,2024-10-07,2024-10-14,12842.41,4,5,7,Visit -> Laboratory -> Laboratory -> Drug -> ClinicalService,47,Male,Social Security,Gynecology,DOC_004
+SYNTH_000235,SYN_000235_E004,2024-10-28,2024-11-11,11150.93,3,4,14,Visit -> Laboratory -> Drug -> Laboratory,47,Male,Social Security,Neurology,DOC_002
+SYNTH_000235,SYN_000235_E005,2024-11-27,2024-11-28,8080.03,2,3,1,Visit -> Laboratory -> Laboratory,47,Male,Social Security,Dermatology,DOC_005
+SYNTH_000236,SYN_000236_E001,2024-04-03,2024-04-05,8341.05,3,6,2,Visit -> Radiology -> Laboratory -> Laboratory -> Laboratory -> Laboratory,37,Female,Organization,ENT,DOC_007
+SYNTH_000236,SYN_000236_E002,2024-05-03,2024-05-10,5497.05,3,3,7,Visit -> Radiology -> Laboratory,37,Female,Organization,Cardiology,DOC_001
+SYNTH_000236,SYN_000236_E003,2024-07-02,2024-07-02,1734.0,2,2,0,Visit -> ClinicalService,37,Female,Organization,Cardiology,DOC_005
+SYNTH_000236,SYN_000236_E004,2024-07-23,2024-07-23,4468.71,2,2,0,Visit -> Drug,37,Female,Organization,Cardiology,DOC_006
+SYNTH_000237,SYN_000237_E001,2024-04-21,2024-05-01,10687.89,3,3,10,Visit -> Drug -> Radiology,18,Female,Health Insurance,General Practice,DOC_007
+SYNTH_000237,SYN_000237_E002,2024-06-20,2024-06-22,7465.14,5,7,2,Visit -> Laboratory -> Drug -> Drug -> Laboratory -> ClinicalService -> Radiology,18,Female,Health Insurance,General Practice,DOC_003
+SYNTH_000237,SYN_000237_E003,2024-07-20,2024-07-22,2037.68,3,3,2,Visit -> Drug -> Laboratory,18,Female,Health Insurance,Neurology,DOC_009
+SYNTH_000237,SYN_000237_E004,2024-08-19,2024-08-21,8712.33,3,4,2,Visit -> Laboratory -> Laboratory -> Radiology,18,Female,Health Insurance,Neurology,DOC_009
+SYNTH_000238,SYN_000238_E001,2024-01-24,2024-01-27,7957.58,4,6,3,Visit -> Radiology -> Radiology -> Laboratory -> Drug -> Radiology,55,Male,Health Insurance,Neurology,DOC_007
+SYNTH_000238,SYN_000238_E002,2024-03-24,2024-03-26,2423.17,2,2,2,Visit -> Drug,55,Male,Health Insurance,Gynecology,DOC_002
+SYNTH_000238,SYN_000238_E003,2024-04-14,2024-04-15,4424.92,5,7,1,Visit -> Radiology -> Laboratory -> ClinicalService -> Laboratory -> Radiology -> Drug,55,Male,Health Insurance,Orthopedics,DOC_001
+SYNTH_000238,SYN_000238_E004,2024-05-14,2024-05-16,13206.14,4,6,2,Visit -> Drug -> Drug -> ClinicalService -> Radiology -> ClinicalService,55,Male,Health Insurance,Neurology,DOC_002
+SYNTH_000239,SYN_000239_E001,2024-07-30,2024-08-02,3496.52,2,2,3,Visit -> Laboratory,37,Male,Social Security,Dermatology,DOC_007
+SYNTH_000239,SYN_000239_E002,2024-08-29,2024-09-01,2143.65,2,2,3,Visit -> Drug,37,Male,Social Security,Dermatology,DOC_010
+SYNTH_000239,SYN_000239_E003,2024-10-13,2024-10-16,3426.29,2,2,3,Visit -> Drug,37,Male,Social Security,Orthopedics,DOC_010
+SYNTH_000239,SYN_000239_E004,2024-10-27,2024-10-28,5886.47,5,7,1,Visit -> ClinicalService -> Laboratory -> Radiology -> Laboratory -> Drug -> Drug,37,Male,Social Security,Dermatology,DOC_004
+SYNTH_000240,SYN_000240_E001,2024-03-31,2024-04-03,3121.04,2,3,3,Visit -> Laboratory -> Laboratory,77,Female,Other,General Practice,DOC_001
+SYNTH_000240,SYN_000240_E002,2024-04-30,2024-05-03,3668.54,3,4,3,Visit -> Laboratory -> Laboratory -> Drug,77,Female,Other,Orthopedics,DOC_007
+SYNTH_000241,SYN_000241_E001,2024-01-16,2024-01-18,5906.04,3,4,2,Visit -> Radiology -> ClinicalService -> ClinicalService,59,Male,Social Security,Gynecology,DOC_007
+SYNTH_000241,SYN_000241_E002,2024-03-01,2024-03-02,9564.33,2,5,1,Visit -> Drug -> Drug -> Drug -> Drug,59,Male,Social Security,Neurology,DOC_003
+SYNTH_000241,SYN_000241_E003,2024-04-15,2024-04-17,14366.82,4,4,2,Visit -> Laboratory -> Radiology -> Drug,59,Male,Social Security,Orthopedics,DOC_010
+SYNTH_000241,SYN_000241_E004,2024-06-14,2024-06-21,11341.72,3,7,7,Visit -> Laboratory -> Radiology -> Laboratory -> Radiology -> Radiology -> Radiology,59,Male,Social Security,Cardiology,DOC_009
+SYNTH_000241,SYN_000241_E005,2024-07-05,2024-07-06,7754.31,4,5,1,Visit -> Radiology -> Laboratory -> Laboratory -> Drug,59,Male,Social Security,Dermatology,DOC_006
+SYNTH_000242,SYN_000242_E001,2024-02-29,2024-03-01,24397.68,5,7,1,Visit -> Radiology -> Laboratory -> Radiology -> ClinicalService -> Laboratory -> Drug,36,Male,Other,Neurology,DOC_008
+SYNTH_000242,SYN_000242_E002,2024-03-30,2024-04-04,5380.02,3,5,5,Visit -> Laboratory -> Radiology -> Radiology -> Radiology,36,Male,Other,Orthopedics,DOC_003
+SYNTH_000242,SYN_000242_E003,2024-06-28,2024-06-30,7110.68,5,7,2,Visit -> Radiology -> Laboratory -> Drug -> Laboratory -> Laboratory -> ClinicalService,36,Male,Other,Neurology,DOC_002
+SYNTH_000242,SYN_000242_E004,2024-07-28,2024-07-31,3995.7,2,2,3,Visit -> Laboratory,36,Male,Other,Dermatology,DOC_007
+SYNTH_000243,SYN_000243_E001,2024-06-21,2024-07-05,13089.94,4,7,14,Visit -> Laboratory -> Drug -> Radiology -> Drug -> Radiology -> Radiology,38,Male,Health Insurance,Internal Medicine,DOC_009
+SYNTH_000243,SYN_000243_E002,2024-08-20,2024-08-30,4965.48,3,7,10,Visit -> Laboratory -> Drug -> Drug -> Drug -> Drug -> Drug,38,Male,Health Insurance,Gynecology,DOC_004
+SYNTH_000243,SYN_000243_E003,2024-10-19,2024-10-22,7412.71,4,6,3,Visit -> Laboratory -> ClinicalService -> Radiology -> Radiology -> ClinicalService,38,Male,Health Insurance,Dermatology,DOC_009
+SYNTH_000243,SYN_000243_E004,2024-11-18,2024-11-21,3490.5,2,2,3,Visit -> Drug,38,Male,Health Insurance,ENT,DOC_009
+SYNTH_000244,SYN_000244_E001,2024-02-29,2024-03-14,18362.93,4,5,14,Visit -> Drug -> Drug -> Laboratory -> ClinicalService,43,Female,Organization,ENT,DOC_010
+SYNTH_000244,SYN_000244_E002,2024-03-07,2024-03-07,4443.45,4,5,0,Visit -> Laboratory -> Drug -> Laboratory -> ClinicalService,43,Female,Organization,Neurology,DOC_003
+SYNTH_000244,SYN_000244_E003,2024-03-21,2024-03-24,5393.64,4,5,3,Visit -> Drug -> Radiology -> ClinicalService -> ClinicalService,43,Female,Organization,Orthopedics,DOC_002
+SYNTH_000244,SYN_000244_E004,2024-06-19,2024-06-21,5424.45,4,7,2,Visit -> Laboratory -> Drug -> Laboratory -> Drug -> ClinicalService -> Drug,43,Female,Organization,Dermatology,DOC_010
+SYNTH_000245,SYN_000245_E001,2024-08-19,2024-08-19,5130.1,2,4,0,Visit -> Drug -> Drug -> Drug,47,Female,Social Security,Orthopedics,DOC_004
+SYNTH_000245,SYN_000245_E002,2024-10-03,2024-10-05,4111.47,3,4,2,Visit -> Radiology -> Radiology -> Drug,47,Female,Social Security,Orthopedics,DOC_010
+SYNTH_000245,SYN_000245_E003,2024-11-02,2024-11-12,6180.69,3,3,10,Visit -> ClinicalService -> Drug,47,Female,Social Security,Neurology,DOC_009
+SYNTH_000246,SYN_000246_E001,2024-02-11,2024-02-13,1298.85,2,3,2,Visit -> Drug -> Drug,26,Male,Private,Dermatology,DOC_003
+SYNTH_000246,SYN_000246_E002,2024-04-11,2024-04-13,1597.21,2,2,2,Visit -> Laboratory,26,Male,Private,Gynecology,DOC_007
+SYNTH_000246,SYN_000246_E003,2024-05-02,2024-05-03,3146.14,3,3,1,Visit -> Laboratory -> Drug,26,Male,Private,Cardiology,DOC_009
+SYNTH_000246,SYN_000246_E004,2024-06-01,2024-06-04,5087.59,4,4,3,Visit -> ClinicalService -> Laboratory -> Radiology,26,Male,Private,Internal Medicine,DOC_004
+SYNTH_000247,SYN_000247_E001,2024-02-26,2024-02-28,24774.67,3,6,2,Visit -> Drug -> ClinicalService -> ClinicalService -> Drug -> ClinicalService,43,Female,Organization,Cardiology,DOC_007
+SYNTH_000247,SYN_000247_E002,2024-03-18,2024-03-20,4309.28,4,4,2,Visit -> Radiology -> Drug -> Laboratory,43,Female,Organization,Neurology,DOC_010
+SYNTH_000247,SYN_000247_E003,2024-04-01,2024-04-06,18918.28,5,6,5,Visit -> Laboratory -> Radiology -> Radiology -> Drug -> ClinicalService,43,Female,Organization,Cardiology,DOC_008
+SYNTH_000247,SYN_000247_E004,2024-05-16,2024-05-23,22491.2,4,5,7,Visit -> Laboratory -> Radiology -> ClinicalService -> Laboratory,43,Female,Organization,Internal Medicine,DOC_004
+SYNTH_000247,SYN_000247_E005,2024-08-14,2024-08-16,4565.03,2,2,2,Visit -> Laboratory,43,Female,Organization,Neurology,DOC_002
+SYNTH_000248,SYN_000248_E001,2024-06-24,2024-06-29,3712.8,3,4,5,Visit -> Drug -> Laboratory -> Laboratory,58,Female,Health Insurance,Dermatology,DOC_002
+SYNTH_000248,SYN_000248_E002,2024-07-01,2024-07-11,2625.22,2,2,10,Visit -> ClinicalService,58,Female,Health Insurance,Orthopedics,DOC_004
+SYNTH_000249,SYN_000249_E001,2024-02-25,2024-02-28,3585.07,2,4,3,Visit -> Drug -> Drug -> Drug,31,Female,Health Insurance,General Practice,DOC_001
+SYNTH_000249,SYN_000249_E002,2024-03-26,2024-03-31,4183.72,3,4,5,Visit -> ClinicalService -> Drug -> ClinicalService,31,Female,Health Insurance,General Practice,DOC_005
+SYNTH_000249,SYN_000249_E003,2024-04-02,2024-04-05,4501.57,3,7,3,Visit -> Laboratory -> Laboratory -> Laboratory -> Drug -> Drug -> Laboratory,31,Female,Health Insurance,ENT,DOC_006
+SYNTH_000249,SYN_000249_E004,2024-05-17,2024-05-20,8884.99,3,7,3,Visit -> Radiology -> Radiology -> Drug -> Drug -> Drug -> Drug,31,Female,Health Insurance,Orthopedics,DOC_009
+SYNTH_000250,SYN_000250_E001,2024-03-19,2024-03-24,15807.97,3,6,5,Visit -> Drug -> Drug -> Drug -> Laboratory -> Laboratory,58,Female,Social Security,ENT,DOC_002
+SYNTH_000250,SYN_000250_E002,2024-04-18,2024-04-25,12873.5,5,7,7,Visit -> Laboratory -> Drug -> Radiology -> Radiology -> Laboratory -> ClinicalService,58,Female,Social Security,Gynecology,DOC_004
+SYNTH_000251,SYN_000251_E001,2024-03-12,2024-03-17,12857.11,4,5,5,Visit -> Laboratory -> Drug -> Laboratory -> ClinicalService,62,Male,Health Insurance,ENT,DOC_004
+SYNTH_000251,SYN_000251_E002,2024-05-11,2024-05-13,4150.12,3,3,2,Visit -> Laboratory -> Drug,62,Male,Health Insurance,Gynecology,DOC_006
+SYNTH_000251,SYN_000251_E003,2024-06-01,2024-06-04,17475.62,5,7,3,Visit -> ClinicalService -> Drug -> Drug -> Radiology -> Radiology -> Laboratory,62,Male,Health Insurance,General Practice,DOC_003
+SYNTH_000252,SYN_000252_E001,2024-07-07,2024-07-08,3547.91,5,7,1,Visit -> ClinicalService -> Radiology -> Drug -> Laboratory -> Drug -> Laboratory,55,Female,Social Security,Internal Medicine,DOC_002
+SYNTH_000253,SYN_000253_E001,2024-01-09,2024-01-11,4938.24,4,7,2,Visit -> Laboratory -> Laboratory -> Radiology -> ClinicalService -> Laboratory -> Laboratory,48,Male,Organization,General Practice,DOC_007
+SYNTH_000253,SYN_000253_E002,2024-01-23,2024-01-26,2780.95,3,3,3,Visit -> Drug -> Laboratory,48,Male,Organization,Internal Medicine,DOC_004
+SYNTH_000253,SYN_000253_E003,2024-03-23,2024-03-28,12441.57,4,7,5,Visit -> Laboratory -> Drug -> Drug -> Drug -> Laboratory -> ClinicalService,48,Male,Organization,Neurology,DOC_001
+SYNTH_000253,SYN_000253_E004,2024-04-22,2024-04-24,10284.2,5,5,2,Visit -> Drug -> ClinicalService -> Laboratory -> Radiology,48,Male,Organization,Internal Medicine,DOC_003
+SYNTH_000253,SYN_000253_E005,2024-05-22,2024-05-25,5400.52,2,2,3,Visit -> ClinicalService,48,Male,Organization,Neurology,DOC_001
+SYNTH_000254,SYN_000254_E001,2024-01-05,2024-01-06,15198.29,2,4,1,Visit -> Drug -> Drug -> Drug,58,Female,Health Insurance,Cardiology,DOC_008
+SYNTH_000254,SYN_000254_E002,2024-02-04,2024-02-14,10709.29,4,6,10,Visit -> Drug -> Drug -> Radiology -> Laboratory -> Radiology,58,Female,Health Insurance,Gynecology,DOC_004
+SYNTH_000255,SYN_000255_E001,2024-07-10,2024-07-10,16332.32,4,7,0,Visit -> Drug -> Radiology -> Laboratory -> Radiology -> Laboratory -> Drug,57,Male,Social Security,Neurology,DOC_010
+SYNTH_000255,SYN_000255_E002,2024-07-31,2024-07-31,9327.88,4,4,0,Visit -> Laboratory -> ClinicalService -> Drug,57,Male,Social Security,Gynecology,DOC_006
+SYNTH_000255,SYN_000255_E003,2024-08-14,2024-08-19,1548.76,2,4,5,Visit -> Drug -> Drug -> Drug,57,Male,Social Security,Neurology,DOC_001
+SYNTH_000255,SYN_000255_E004,2024-09-13,2024-09-16,6566.05,3,3,3,Visit -> ClinicalService -> Radiology,57,Male,Social Security,Internal Medicine,DOC_007
+SYNTH_000255,SYN_000255_E005,2024-10-13,2024-10-18,3938.33,5,6,5,Visit -> ClinicalService -> Laboratory -> Laboratory -> Drug -> Radiology,57,Male,Social Security,Internal Medicine,DOC_006
+SYNTH_000256,SYN_000256_E001,2024-02-20,2024-02-25,6625.1,3,6,5,Visit -> Drug -> Drug -> Drug -> Drug -> Laboratory,51,Female,Private,General Practice,DOC_009
+SYNTH_000256,SYN_000256_E002,2024-03-05,2024-03-06,8093.23,4,5,1,Visit -> ClinicalService -> Radiology -> Laboratory -> Radiology,51,Female,Private,Neurology,DOC_004
+SYNTH_000256,SYN_000256_E003,2024-03-12,2024-03-19,11051.1,2,2,7,Visit -> ClinicalService,51,Female,Private,Neurology,DOC_004
+SYNTH_000257,SYN_000257_E001,2024-06-09,2024-06-11,8490.4,3,4,2,Visit -> Laboratory -> Laboratory -> Drug,37,Female,Social Security,ENT,DOC_007
+SYNTH_000257,SYN_000257_E002,2024-09-07,2024-09-09,12252.72,3,5,2,Visit -> Radiology -> Radiology -> Drug -> Radiology,37,Female,Social Security,Cardiology,DOC_003
+SYNTH_000257,SYN_000257_E003,2024-12-06,2024-12-09,4970.61,3,4,3,Visit -> Drug -> Drug -> Radiology,37,Female,Social Security,Orthopedics,DOC_010
+SYNTH_000257,SYN_000257_E004,2024-12-27,2024-12-28,3932.36,2,4,1,Visit -> Laboratory -> Laboratory -> Laboratory,37,Female,Social Security,General Practice,DOC_009
+SYNTH_000258,SYN_000258_E001,2024-02-11,2024-02-11,4667.85,3,3,0,Visit -> Radiology -> Drug,45,Female,Health Insurance,ENT,DOC_004
+SYNTH_000258,SYN_000258_E002,2024-05-11,2024-05-16,14963.84,3,3,5,Visit -> Drug -> ClinicalService,45,Female,Health Insurance,Neurology,DOC_010
+SYNTH_000258,SYN_000258_E003,2024-06-25,2024-06-30,3228.62,2,2,5,Visit -> Laboratory,45,Female,Health Insurance,ENT,DOC_005
+SYNTH_000258,SYN_000258_E004,2024-07-25,2024-07-28,9394.87,3,4,3,Visit -> Radiology -> Laboratory -> Laboratory,45,Female,Health Insurance,Dermatology,DOC_008
+SYNTH_000258,SYN_000258_E005,2024-09-08,2024-09-08,23371.88,5,6,0,Visit -> Laboratory -> ClinicalService -> Radiology -> Laboratory -> Drug,45,Female,Health Insurance,Gynecology,DOC_005
+SYNTH_000259,SYN_000259_E001,2024-05-20,2024-05-20,10951.48,3,6,0,Visit -> Laboratory -> Drug -> Drug -> Drug -> Laboratory,36,Female,Social Security,ENT,DOC_007
+SYNTH_000260,SYN_000260_E001,2024-02-19,2024-02-19,16508.21,4,7,0,Visit -> Laboratory -> Laboratory -> ClinicalService -> Laboratory -> Drug -> Laboratory,43,Female,Social Security,Cardiology,DOC_005
+SYNTH_000260,SYN_000260_E002,2024-05-19,2024-05-26,6406.74,4,6,7,Visit -> Drug -> Radiology -> ClinicalService -> Drug -> Drug,43,Female,Social Security,Orthopedics,DOC_007
+SYNTH_000260,SYN_000260_E003,2024-06-09,2024-06-10,3521.55,2,2,1,Visit -> Laboratory,43,Female,Social Security,Cardiology,DOC_002
+SYNTH_000260,SYN_000260_E004,2024-07-24,2024-07-26,5701.85,4,4,2,Visit -> Radiology -> ClinicalService -> Drug,43,Female,Social Security,Internal Medicine,DOC_010
+SYNTH_000260,SYN_000260_E005,2024-10-22,2024-10-24,4374.73,2,2,2,Visit -> Drug,43,Female,Social Security,Gynecology,DOC_007
+SYNTH_000261,SYN_000261_E001,2024-01-07,2024-01-10,11668.01,4,7,3,Visit -> Laboratory -> Laboratory -> Laboratory -> ClinicalService -> Radiology -> Radiology,61,Female,Health Insurance,Internal Medicine,DOC_007
+SYNTH_000261,SYN_000261_E002,2024-02-21,2024-02-24,3899.56,3,4,3,Visit -> ClinicalService -> ClinicalService -> Laboratory,61,Female,Health Insurance,Orthopedics,DOC_005
+SYNTH_000261,SYN_000261_E003,2024-04-21,2024-05-01,3661.34,2,2,10,Visit -> Drug,61,Female,Health Insurance,Orthopedics,DOC_002
+SYNTH_000262,SYN_000262_E001,2024-08-02,2024-08-09,2041.27,2,3,7,Visit -> Radiology -> Radiology,53,Female,Health Insurance,ENT,DOC_004
+SYNTH_000262,SYN_000262_E002,2024-08-09,2024-08-14,13185.35,5,7,5,Visit -> Drug -> ClinicalService -> ClinicalService -> Drug -> Radiology -> Laboratory,53,Female,Health Insurance,Dermatology,DOC_002
+SYNTH_000262,SYN_000262_E003,2024-08-16,2024-08-26,5401.17,2,2,10,Visit -> Laboratory,53,Female,Health Insurance,Neurology,DOC_008
+SYNTH_000263,SYN_000263_E001,2024-05-29,2024-06-05,3012.74,4,6,7,Visit -> Drug -> Drug -> Laboratory -> Drug -> Radiology,39,Male,Social Security,Dermatology,DOC_008
+SYNTH_000263,SYN_000263_E002,2024-06-05,2024-06-06,3232.48,2,3,1,Visit -> Radiology -> Radiology,39,Male,Social Security,Neurology,DOC_003
+SYNTH_000263,SYN_000263_E003,2024-09-03,2024-09-05,8027.71,5,5,2,Visit -> ClinicalService -> Drug -> Laboratory -> Radiology,39,Male,Social Security,ENT,DOC_010
+SYNTH_000263,SYN_000263_E004,2024-12-02,2024-12-12,2356.28,4,6,10,Visit -> Laboratory -> Laboratory -> Laboratory -> Drug -> ClinicalService,39,Male,Social Security,Cardiology,DOC_002
+SYNTH_000264,SYN_000264_E001,2024-01-06,2024-01-08,3759.08,4,6,2,Visit -> Radiology -> Laboratory -> Laboratory -> Drug -> Laboratory,72,Male,Private,Dermatology,DOC_009
+SYNTH_000264,SYN_000264_E002,2024-02-20,2024-02-23,7365.01,3,3,3,Visit -> Radiology -> Drug,72,Male,Private,Neurology,DOC_004
+SYNTH_000264,SYN_000264_E003,2024-03-21,2024-03-22,1051.62,2,2,1,Visit -> Laboratory,72,Male,Private,Gynecology,DOC_007
+SYNTH_000264,SYN_000264_E004,2024-05-05,2024-05-06,10180.05,4,4,1,Visit -> Radiology -> Laboratory -> Drug,72,Male,Private,Neurology,DOC_001
+SYNTH_000265,SYN_000265_E001,2024-04-14,2024-04-17,5415.32,4,7,3,Visit -> Drug -> Laboratory -> ClinicalService -> Laboratory -> Drug -> Drug,75,Male,Health Insurance,Internal Medicine,DOC_006
+SYNTH_000265,SYN_000265_E002,2024-05-14,2024-05-14,10966.35,3,5,0,Visit -> Radiology -> Laboratory -> Radiology -> Laboratory,75,Male,Health Insurance,Internal Medicine,DOC_004
+SYNTH_000265,SYN_000265_E003,2024-06-13,2024-06-14,4996.59,4,6,1,Visit -> ClinicalService -> Radiology -> Laboratory -> Laboratory -> Laboratory,75,Male,Health Insurance,Internal Medicine,DOC_006
+SYNTH_000265,SYN_000265_E004,2024-07-04,2024-07-06,9317.04,4,5,2,Visit -> Laboratory -> ClinicalService -> Drug -> Drug,75,Male,Health Insurance,Internal Medicine,DOC_010
+SYNTH_000266,SYN_000266_E001,2024-03-09,2024-03-23,12417.75,3,3,14,Visit -> Radiology -> Laboratory,53,Male,Social Security,Neurology,DOC_007
+SYNTH_000266,SYN_000266_E002,2024-03-16,2024-03-21,1923.03,2,2,5,Visit -> ClinicalService,53,Male,Social Security,General Practice,DOC_008
+SYNTH_000266,SYN_000266_E003,2024-05-15,2024-05-17,3502.25,4,5,2,Visit -> Radiology -> Drug -> Laboratory -> Drug,53,Male,Social Security,Dermatology,DOC_003
+SYNTH_000266,SYN_000266_E004,2024-07-14,2024-07-16,5657.43,4,5,2,Visit -> Drug -> Radiology -> Laboratory -> Drug,53,Male,Social Security,Dermatology,DOC_007
+SYNTH_000267,SYN_000267_E001,2024-01-24,2024-01-26,16368.43,3,3,2,Visit -> Radiology -> Laboratory,78,Male,Health Insurance,Cardiology,DOC_010
+SYNTH_000267,SYN_000267_E002,2024-03-24,2024-03-27,2477.05,2,3,3,Visit -> Drug -> Drug,78,Male,Health Insurance,Dermatology,DOC_004
+SYNTH_000267,SYN_000267_E003,2024-04-23,2024-05-07,1736.69,3,3,14,Visit -> Laboratory -> Radiology,78,Male,Health Insurance,Gynecology,DOC_006
+SYNTH_000267,SYN_000267_E004,2024-05-23,2024-05-24,6578.63,4,4,1,Visit -> ClinicalService -> Drug -> Radiology,78,Male,Health Insurance,Gynecology,DOC_004
+SYNTH_000267,SYN_000267_E005,2024-08-21,2024-08-26,897.22,4,6,5,Visit -> Drug -> Radiology -> Laboratory -> Drug -> Drug,78,Male,Health Insurance,Cardiology,DOC_005
+SYNTH_000268,SYN_000268_E001,2024-04-21,2024-04-24,4104.38,2,2,3,Visit -> Drug,44,Female,Social Security,Orthopedics,DOC_007
+SYNTH_000268,SYN_000268_E002,2024-06-05,2024-06-06,10951.14,4,6,1,Visit -> Laboratory -> Laboratory -> Drug -> Radiology -> Drug,44,Female,Social Security,Cardiology,DOC_006
+SYNTH_000269,SYN_000269_E001,2024-02-01,2024-02-01,2600.05,2,2,0,Visit -> Laboratory,63,Male,Social Security,Gynecology,DOC_005
+SYNTH_000269,SYN_000269_E002,2024-03-17,2024-03-18,1058.3,2,2,1,Visit -> Drug,63,Male,Social Security,Dermatology,DOC_009
+SYNTH_000269,SYN_000269_E003,2024-03-31,2024-04-10,4729.15,2,2,10,Visit -> ClinicalService,63,Male,Social Security,General Practice,DOC_007
+SYNTH_000269,SYN_000269_E004,2024-04-21,2024-04-24,5509.0,4,6,3,Visit -> Drug -> Laboratory -> Drug -> Drug -> Radiology,63,Male,Social Security,ENT,DOC_008
+SYNTH_000270,SYN_000270_E001,2024-07-11,2024-07-14,15710.39,4,5,3,Visit -> Drug -> ClinicalService -> Drug -> Laboratory,18,Male,Health Insurance,Dermatology,DOC_005
+SYNTH_000271,SYN_000271_E001,2024-08-21,2024-08-28,6907.54,4,5,7,Visit -> Laboratory -> ClinicalService -> Drug -> Laboratory,31,Female,Organization,ENT,DOC_001
+SYNTH_000272,SYN_000272_E001,2024-03-17,2024-03-18,13000.7,3,5,1,Visit -> Laboratory -> Radiology -> Laboratory -> Radiology,41,Male,Other,Neurology,DOC_006
+SYNTH_000273,SYN_000273_E001,2024-01-18,2024-01-21,3900.53,2,2,3,Visit -> Drug,44,Female,Social Security,Orthopedics,DOC_008
+SYNTH_000273,SYN_000273_E002,2024-02-01,2024-02-03,9537.02,2,2,2,Visit -> Drug,44,Female,Social Security,General Practice,DOC_003
+SYNTH_000273,SYN_000273_E003,2024-03-17,2024-03-18,5714.99,3,3,1,Visit -> ClinicalService -> Laboratory,44,Female,Social Security,Orthopedics,DOC_002
+SYNTH_000273,SYN_000273_E004,2024-05-01,2024-05-04,12525.74,2,2,3,Visit -> Radiology,44,Female,Social Security,Cardiology,DOC_009
+SYNTH_000274,SYN_000274_E001,2024-02-04,2024-02-11,4717.18,3,3,7,Visit -> Radiology -> Drug,54,Female,Other,Cardiology,DOC_003
+SYNTH_000274,SYN_000274_E002,2024-02-11,2024-02-12,4799.33,2,2,1,Visit -> Laboratory,54,Female,Other,Dermatology,DOC_004
+SYNTH_000274,SYN_000274_E003,2024-04-11,2024-04-21,2280.41,3,6,10,Visit -> ClinicalService -> ClinicalService -> Laboratory -> Laboratory -> ClinicalService,54,Female,Other,Dermatology,DOC_009
+SYNTH_000274,SYN_000274_E004,2024-04-25,2024-05-02,15891.58,5,7,7,Visit -> ClinicalService -> Radiology -> ClinicalService -> Laboratory -> ClinicalService -> Drug,54,Female,Other,ENT,DOC_009
+SYNTH_000275,SYN_000275_E001,2024-06-11,2024-06-16,4558.75,4,5,5,Visit -> ClinicalService -> Drug -> Drug -> Radiology,42,Female,Social Security,Gynecology,DOC_010
+SYNTH_000275,SYN_000275_E002,2024-08-10,2024-08-12,6291.38,2,3,2,Visit -> Radiology -> Radiology,42,Female,Social Security,Internal Medicine,DOC_006
+SYNTH_000275,SYN_000275_E003,2024-10-09,2024-10-11,37252.21,4,6,2,Visit -> Drug -> Laboratory -> Drug -> Drug -> ClinicalService,42,Female,Social Security,Gynecology,DOC_002
+SYNTH_000276,SYN_000276_E001,2024-07-30,2024-08-06,4445.97,3,5,7,Visit -> Laboratory -> Laboratory -> Drug -> Drug,50,Male,Other,Orthopedics,DOC_001
+SYNTH_000276,SYN_000276_E002,2024-08-06,2024-08-07,24374.15,4,5,1,Visit -> Laboratory -> Radiology -> Laboratory -> ClinicalService,50,Male,Other,Internal Medicine,DOC_009
+SYNTH_000276,SYN_000276_E003,2024-09-05,2024-09-08,4081.01,4,6,3,Visit -> Laboratory -> Radiology -> ClinicalService -> Radiology -> ClinicalService,50,Male,Other,Internal Medicine,DOC_005
+SYNTH_000276,SYN_000276_E004,2024-10-20,2024-10-23,4486.84,2,2,3,Visit -> Drug,50,Male,Other,Orthopedics,DOC_009
+SYNTH_000277,SYN_000277_E001,2024-04-11,2024-04-12,6659.7,2,3,1,Visit -> Laboratory -> Laboratory,41,Male,Social Security,ENT,DOC_002
+SYNTH_000277,SYN_000277_E002,2024-05-11,2024-05-25,1388.85,2,2,14,Visit -> Drug,41,Male,Social Security,Gynecology,DOC_008
+SYNTH_000277,SYN_000277_E003,2024-06-25,2024-06-27,3925.54,4,5,2,Visit -> Drug -> Radiology -> ClinicalService -> Drug,41,Male,Social Security,Cardiology,DOC_001
+SYNTH_000278,SYN_000278_E001,2024-08-30,2024-09-02,2742.12,2,2,3,Visit -> Drug,59,Male,Social Security,Neurology,DOC_001
+SYNTH_000278,SYN_000278_E002,2024-09-13,2024-09-18,4412.36,2,3,5,Visit -> Radiology -> Radiology,59,Male,Social Security,ENT,DOC_008
+SYNTH_000278,SYN_000278_E003,2024-11-12,2024-11-17,6427.9,3,4,5,Visit -> Drug -> Drug -> ClinicalService,59,Male,Social Security,Internal Medicine,DOC_007
+SYNTH_000278,SYN_000278_E004,2024-12-27,2024-12-30,2365.0,3,4,3,Visit -> Laboratory -> Radiology -> Laboratory,59,Male,Social Security,Orthopedics,DOC_008
+SYNTH_000279,SYN_000279_E001,2024-02-22,2024-02-29,7634.6,4,4,7,Visit -> Laboratory -> ClinicalService -> Radiology,18,Female,Organization,Orthopedics,DOC_010
+SYNTH_000279,SYN_000279_E002,2024-03-23,2024-03-24,8381.37,2,4,1,Visit -> Drug -> Drug -> Drug,18,Female,Organization,General Practice,DOC_001
+SYNTH_000279,SYN_000279_E003,2024-05-07,2024-05-07,5679.28,3,3,0,Visit -> Drug -> Radiology,18,Female,Organization,ENT,DOC_010
+SYNTH_000280,SYN_000280_E001,2024-03-18,2024-03-19,7066.65,3,7,1,Visit -> Drug -> Drug -> Drug -> Laboratory -> Laboratory -> Drug,57,Male,Organization,Gynecology,DOC_003
+SYNTH_000280,SYN_000280_E002,2024-05-02,2024-05-12,8428.17,5,7,10,Visit -> Laboratory -> ClinicalService -> Radiology -> Laboratory -> Laboratory -> Drug,57,Male,Organization,Orthopedics,DOC_010
+SYNTH_000280,SYN_000280_E003,2024-06-01,2024-06-01,7042.53,4,4,0,Visit -> Drug -> Radiology -> Laboratory,57,Male,Organization,Internal Medicine,DOC_003
+SYNTH_000280,SYN_000280_E004,2024-06-22,2024-06-22,9157.87,3,4,0,Visit -> Radiology -> Radiology -> ClinicalService,57,Male,Organization,Dermatology,DOC_005
+SYNTH_000280,SYN_000280_E005,2024-07-22,2024-08-05,5334.17,3,5,14,Visit -> Drug -> Laboratory -> Drug -> Drug,57,Male,Organization,Orthopedics,DOC_008
+SYNTH_000281,SYN_000281_E001,2024-06-13,2024-06-16,19462.07,4,5,3,Visit -> ClinicalService -> Laboratory -> ClinicalService -> Radiology,41,Male,Health Insurance,Cardiology,DOC_009
+SYNTH_000281,SYN_000281_E002,2024-08-12,2024-08-14,8613.89,2,2,2,Visit -> Radiology,41,Male,Health Insurance,Internal Medicine,DOC_006
+SYNTH_000282,SYN_000282_E001,2024-02-03,2024-02-06,5856.41,2,2,3,Visit -> ClinicalService,61,Female,Social Security,ENT,DOC_007
+SYNTH_000282,SYN_000282_E002,2024-05-03,2024-05-06,1610.24,4,5,3,Visit -> ClinicalService -> Drug -> ClinicalService -> Laboratory,61,Female,Social Security,Internal Medicine,DOC_004
+SYNTH_000282,SYN_000282_E003,2024-08-01,2024-08-02,9483.21,3,3,1,Visit -> ClinicalService -> Drug,61,Female,Social Security,Internal Medicine,DOC_010
+SYNTH_000283,SYN_000283_E001,2024-02-03,2024-02-08,4350.6,3,5,5,Visit -> Radiology -> Drug -> Radiology -> Drug,54,Female,Health Insurance,ENT,DOC_008
+SYNTH_000284,SYN_000284_E001,2024-08-18,2024-08-20,12098.96,4,5,2,Visit -> ClinicalService -> Drug -> Radiology -> Drug,54,Male,Private,Gynecology,DOC_007
+SYNTH_000284,SYN_000284_E002,2024-10-02,2024-10-07,2374.65,2,3,5,Visit -> Laboratory -> Laboratory,54,Male,Private,Gynecology,DOC_009
+SYNTH_000284,SYN_000284_E003,2024-11-01,2024-11-03,4906.95,3,4,2,Visit -> Laboratory -> Drug -> Drug,54,Male,Private,General Practice,DOC_006
+SYNTH_000285,SYN_000285_E001,2024-01-03,2024-01-05,3933.44,3,6,2,Visit -> Radiology -> Drug -> Drug -> Drug -> Radiology,85,Female,Health Insurance,Neurology,DOC_007
+SYNTH_000285,SYN_000285_E002,2024-03-03,2024-03-06,915.49,2,2,3,Visit -> Radiology,85,Female,Health Insurance,Neurology,DOC_009
+SYNTH_000285,SYN_000285_E003,2024-06-01,2024-06-04,5117.81,2,3,3,Visit -> Drug -> Drug,85,Female,Health Insurance,Cardiology,DOC_004
+SYNTH_000285,SYN_000285_E004,2024-06-22,2024-07-02,10236.96,3,4,10,Visit -> Drug -> Laboratory -> Drug,85,Female,Health Insurance,General Practice,DOC_008
+SYNTH_000286,SYN_000286_E001,2024-07-07,2024-07-10,8364.03,3,3,3,Visit -> Laboratory -> Drug,67,Female,Private,Neurology,DOC_003
+SYNTH_000286,SYN_000286_E002,2024-09-05,2024-09-06,10717.39,2,2,1,Visit -> Radiology,67,Female,Private,Cardiology,DOC_002
+SYNTH_000286,SYN_000286_E003,2024-09-26,2024-10-06,4754.15,3,6,10,Visit -> Laboratory -> Laboratory -> Drug -> Drug -> Drug,67,Female,Private,Neurology,DOC_006
+SYNTH_000287,SYN_000287_E001,2024-01-28,2024-01-29,3485.78,2,2,1,Visit -> ClinicalService,64,Male,Private,Dermatology,DOC_009
+SYNTH_000287,SYN_000287_E002,2024-02-27,2024-02-29,2823.53,4,4,2,Visit -> ClinicalService -> Drug -> Radiology,64,Male,Private,Neurology,DOC_004
+SYNTH_000287,SYN_000287_E003,2024-03-28,2024-03-31,1791.0,2,3,3,Visit -> Laboratory -> Laboratory,64,Male,Private,Orthopedics,DOC_003
+SYNTH_000288,SYN_000288_E001,2024-02-01,2024-02-02,3055.93,2,2,1,Visit -> Drug,42,Female,Health Insurance,Orthopedics,DOC_003
+SYNTH_000288,SYN_000288_E002,2024-03-17,2024-03-17,12854.86,3,5,0,Visit -> Radiology -> Laboratory -> Laboratory -> Radiology,42,Female,Health Insurance,Orthopedics,DOC_005
+SYNTH_000288,SYN_000288_E003,2024-05-16,2024-05-23,6407.38,5,7,7,Visit -> Radiology -> Laboratory -> Drug -> Laboratory -> Radiology -> ClinicalService,42,Female,Health Insurance,Orthopedics,DOC_009
+SYNTH_000289,SYN_000289_E001,2024-02-04,2024-02-11,4281.95,4,5,7,Visit -> Drug -> Drug -> Radiology -> ClinicalService,46,Male,Organization,Orthopedics,DOC_004
+SYNTH_000289,SYN_000289_E002,2024-02-25,2024-02-26,3203.16,5,5,1,Visit -> ClinicalService -> Drug -> Laboratory -> Radiology,46,Male,Organization,General Practice,DOC_009
+SYNTH_000289,SYN_000289_E003,2024-03-03,2024-03-06,4437.94,2,2,3,Visit -> ClinicalService,46,Male,Organization,Dermatology,DOC_003
+SYNTH_000289,SYN_000289_E004,2024-04-02,2024-04-04,10174.7,3,4,2,Visit -> Drug -> Radiology -> Drug,46,Male,Organization,Neurology,DOC_008
+SYNTH_000290,SYN_000290_E001,2024-06-15,2024-06-16,3266.31,3,3,1,Visit -> ClinicalService -> Drug,47,Male,Health Insurance,Cardiology,DOC_002
+SYNTH_000290,SYN_000290_E002,2024-06-22,2024-06-29,10341.58,4,7,7,Visit -> ClinicalService -> Radiology -> Laboratory -> ClinicalService -> Radiology -> Radiology,47,Male,Health Insurance,ENT,DOC_004
+SYNTH_000290,SYN_000290_E003,2024-07-22,2024-07-23,52144.51,4,6,1,Visit -> Laboratory -> Laboratory -> Radiology -> Laboratory -> Drug,47,Male,Health Insurance,General Practice,DOC_006
+SYNTH_000290,SYN_000290_E004,2024-08-21,2024-08-22,8184.86,3,3,1,Visit -> Radiology -> Drug,47,Male,Health Insurance,Orthopedics,DOC_001
+SYNTH_000291,SYN_000291_E001,2024-07-07,2024-07-10,7079.26,5,6,3,Visit -> Radiology -> Drug -> ClinicalService -> Laboratory -> ClinicalService,41,Male,Other,General Practice,DOC_003
+SYNTH_000291,SYN_000291_E002,2024-10-05,2024-10-08,4644.96,3,4,3,Visit -> Drug -> Radiology -> Drug,41,Male,Other,General Practice,DOC_006
+SYNTH_000291,SYN_000291_E003,2024-11-04,2024-11-05,3327.03,2,3,1,Visit -> ClinicalService -> ClinicalService,41,Male,Other,General Practice,DOC_007
+SYNTH_000292,SYN_000292_E001,2024-02-26,2024-02-28,4604.88,4,5,2,Visit -> Drug -> Laboratory -> Laboratory -> ClinicalService,47,Female,Other,Internal Medicine,DOC_010
+SYNTH_000292,SYN_000292_E002,2024-04-26,2024-04-27,52161.35,5,7,1,Visit -> Drug -> Laboratory -> Drug -> Drug -> ClinicalService -> Radiology,47,Female,Other,Internal Medicine,DOC_007
+SYNTH_000292,SYN_000292_E003,2024-05-03,2024-05-05,13376.81,2,3,2,Visit -> Drug -> Drug,47,Female,Other,Dermatology,DOC_002
+SYNTH_000293,SYN_000293_E001,2024-08-13,2024-08-18,6285.54,3,5,5,Visit -> Laboratory -> Laboratory -> Radiology -> Radiology,44,Male,Health Insurance,Dermatology,DOC_008
+SYNTH_000293,SYN_000293_E002,2024-09-27,2024-10-07,12153.28,4,7,10,Visit -> Drug -> Drug -> ClinicalService -> Drug -> Laboratory -> Laboratory,44,Male,Health Insurance,Neurology,DOC_003
+SYNTH_000293,SYN_000293_E003,2024-11-26,2024-11-29,5948.56,4,5,3,Visit -> ClinicalService -> Radiology -> Laboratory -> ClinicalService,44,Male,Health Insurance,ENT,DOC_004
+SYNTH_000294,SYN_000294_E001,2024-03-16,2024-03-18,5860.27,2,2,2,Visit -> Radiology,41,Female,Health Insurance,Orthopedics,DOC_004
+SYNTH_000294,SYN_000294_E002,2024-04-15,2024-04-22,6495.44,2,2,7,Visit -> Drug,41,Female,Health Insurance,Gynecology,DOC_007
+SYNTH_000294,SYN_000294_E003,2024-06-14,2024-06-14,5833.45,2,5,0,Visit -> Laboratory -> Laboratory -> Laboratory -> Laboratory,41,Female,Health Insurance,Orthopedics,DOC_010
+SYNTH_000295,SYN_000295_E001,2024-01-09,2024-01-14,3557.56,2,3,5,Visit -> Drug -> Drug,58,Male,Social Security,Dermatology,DOC_007
+SYNTH_000295,SYN_000295_E002,2024-01-16,2024-01-17,9391.52,5,6,1,Visit -> Radiology -> Drug -> Radiology -> ClinicalService -> Laboratory,58,Male,Social Security,Gynecology,DOC_007
+SYNTH_000295,SYN_000295_E003,2024-01-23,2024-01-30,5603.3,3,3,7,Visit -> ClinicalService -> Laboratory,58,Male,Social Security,Orthopedics,DOC_009
+SYNTH_000296,SYN_000296_E001,2024-01-18,2024-01-18,6161.86,2,3,0,Visit -> Laboratory -> Laboratory,45,Male,Social Security,Neurology,DOC_007
+SYNTH_000296,SYN_000296_E002,2024-01-25,2024-01-26,16425.33,3,3,1,Visit -> Laboratory -> Radiology,45,Male,Social Security,Internal Medicine,DOC_004
+SYNTH_000296,SYN_000296_E003,2024-02-15,2024-02-18,9907.82,4,7,3,Visit -> ClinicalService -> Drug -> Drug -> Drug -> Drug -> Laboratory,45,Male,Social Security,Cardiology,DOC_007
+SYNTH_000296,SYN_000296_E004,2024-03-07,2024-03-12,2848.16,4,4,5,Visit -> Drug -> Radiology -> Laboratory,45,Male,Social Security,Gynecology,DOC_010
+SYNTH_000297,SYN_000297_E001,2024-08-29,2024-09-03,15622.98,2,4,5,Visit -> Radiology -> Radiology -> Radiology,57,Male,Social Security,Neurology,DOC_002
+SYNTH_000297,SYN_000297_E002,2024-10-13,2024-10-13,17342.7,4,6,0,Visit -> ClinicalService -> Drug -> Drug -> Radiology -> Drug,57,Male,Social Security,Internal Medicine,DOC_007
+SYNTH_000297,SYN_000297_E003,2024-11-03,2024-11-03,5852.99,4,6,0,Visit -> Radiology -> Laboratory -> Drug -> Laboratory -> Drug,57,Male,Social Security,Internal Medicine,DOC_001
+SYNTH_000297,SYN_000297_E004,2024-11-17,2024-11-17,2619.48,3,4,0,Visit -> Laboratory -> Laboratory -> Drug,57,Male,Social Security,General Practice,DOC_007
+SYNTH_000298,SYN_000298_E001,2024-01-23,2024-01-24,2979.24,2,2,1,Visit -> Drug,24,Female,Private,Dermatology,DOC_004
+SYNTH_000299,SYN_000299_E001,2024-07-24,2024-07-26,18427.66,4,6,2,Visit -> Laboratory -> ClinicalService -> ClinicalService -> Laboratory -> Drug,33,Female,Health Insurance,Dermatology,DOC_003
+SYNTH_000299,SYN_000299_E002,2024-08-14,2024-08-17,14021.63,4,7,3,Visit -> Drug -> Laboratory -> Drug -> Radiology -> Laboratory -> Drug,33,Female,Health Insurance,Dermatology,DOC_005
+SYNTH_000299,SYN_000299_E003,2024-09-13,2024-09-16,15666.64,3,4,3,Visit -> Radiology -> ClinicalService -> Radiology,33,Female,Health Insurance,ENT,DOC_008
+SYNTH_000299,SYN_000299_E004,2024-11-12,2024-11-13,4014.58,2,3,1,Visit -> Drug -> Drug,33,Female,Health Insurance,Internal Medicine,DOC_009
+SYNTH_000299,SYN_000299_E005,2024-12-27,2024-12-30,3394.69,2,2,3,Visit -> Drug,33,Female,Health Insurance,Internal Medicine,DOC_001
+SYNTH_000300,SYN_000300_E001,2024-06-01,2024-06-04,3815.96,2,2,3,Visit -> ClinicalService,63,Male,Health Insurance,General Practice,DOC_010
+SYNTH_000300,SYN_000300_E002,2024-06-15,2024-06-16,1371.29,2,2,1,Visit -> ClinicalService,63,Male,Health Insurance,Orthopedics,DOC_005
+SYNTH_000300,SYN_000300_E003,2024-09-13,2024-09-16,6190.28,3,3,3,Visit -> Radiology -> Drug,63,Male,Health Insurance,ENT,DOC_002
+SYNTH_000300,SYN_000300_E004,2024-11-12,2024-11-15,1228.76,3,3,3,Visit -> Drug -> Radiology,63,Male,Health Insurance,ENT,DOC_009
+SYNTH_000300,SYN_000300_E005,2024-12-27,2024-12-28,3716.49,2,2,1,Visit -> Laboratory,63,Male,Health Insurance,ENT,DOC_004

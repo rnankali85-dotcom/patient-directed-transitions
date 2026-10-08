@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private healthcare data
+# Keep the reviewed synthetic demo file only.
+data/*.csv
+!data/synthetic_demo.csv
+data/raw/
+data/private/
+data/*.parquet
+
+# Local trained models and serialized objects
+models/
+models_demo/
+*.joblib
+*.pkl
+*.pickle
+
+# Local outputs
+outputs/
+results/tmp/
+results/synthetic_demo_statistics.csv
+
+# Local logs
+*.log
+
+# Environment / secrets
+.env
+*.pem
+*.key
